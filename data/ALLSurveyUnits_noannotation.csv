@@ -1,0 +1,1376 @@
+uuid;identifier;createdBy;createdAtGMT;modifiedBy;modifiedAtGMT;SurveyUnitID;MostRecentlyComputedTotal;Latitude;Longitude;Northing;Easting;Accuracy;LandUse;AgriculturalCondition;Topography;Slope;Visibility;Passability;Drainage;Vegetation;Stoniness;Shade;NumberOfRows;NumberOfWalkers;RowIntervalM;WalkerIntervalM;Walkers;MostRecentlyComputedAncient;MostRecentlyComputedModern;MostRecentlyComputedAC;MostRecentlyComputedHM;MostRecentlyComputedLithic;MostRecentlyComputedDaub;MostRecentlyComputedGlass;MostRecentlyComputedOther;SampleTaken;Date;geospatialcolumn;SamplePhoto
+1.00E+18;10001: 0;Adela Sobotkova;2020-01-14 10:56:35.437 GMT;Adela Sobotkova;2020-01-14 10:56:35 GMT;10001;0;22.96902063;38.063313;672734.2526;4214670.092;3;Perennial Agriculture;Partially Fallow;Undulating Landscape;;0-20%;2;1;5;2;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";0;0;0;0;0;0;0;0;No;14/01/2020;POINT(672734.252584 4214670.091776);testrun
+1.00E+18;10002: 5;Adela Sobotkova;2020-01-14 11:30:32.696 GMT;Adela Sobotkova;2020-01-14 11:30:32 GMT;10002;5;22.96873931;38.06371158;672708.634;4214713.799;3;Perennial Agriculture;Partially Fallow;Undulating Landscape;;20-40%;2;1;2;4;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";5;0;0;0;0;0;0;0;Yes;14/01/2020;POINT(672708.634029 4214713.799011);testrun
+1.00E+18;10003: 20;Adela Sobotkova;2020-01-14 11:37:33.011 GMT;Adela Sobotkova;2020-01-14 11:37:33 GMT;10003;20;22.9683579;38.06399011;672674.5171;4214743.998;3;Perennial Agriculture;Partially Fallow;Undulating Landscape;Gentle;40-60%;2;1;2;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";17;0;3;0;0;0;0;0;Yes;14/01/2020;POINT(672674.517065 4214743.997554);testrun
+1.00E+18;10004: 7;Adela Sobotkova;2020-01-14 11:45:47.182 GMT;Adela Sobotkova;2020-01-14 11:45:47 GMT;10004;7;22.96795577;38.06421479;672638.7079;4214768.183;3;Perennial Agriculture;Partially Fallow;Undulating Landscape;;40-60%;1;1;2;2;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";7;0;0;0;0;0;0;0;Yes;14/01/2020;POINT(672638.707903 4214768.182837);testrun
+1.00E+18;10005: 5;Adela Sobotkova;2020-01-14 11:57:31.505 GMT;Adela Sobotkova;2020-01-14 11:57:31 GMT;10005;5;22.96747353;38.0642681;672596.2747;4214773.203;3;Perennial Agriculture;Partially Fallow;Undulating Landscape;;40-60%;1;1;2;2;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";5;0;0;0;0;0;0;0;No;14/01/2020;POINT(672596.274719 4214773.202731);testrun
+1.00E+18;10006: 6;Adela Sobotkova;2020-01-14 12:07:21.758 GMT;Adela Sobotkova;2020-01-14 12:07:21 GMT;10006;6;22.96687248;38.06419916;672543.7046;4214764.436;4;Perennial Agriculture;Partially Fallow;Undulating Landscape;;40-60%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";6;0;0;0;0;0;0;0;Yes;14/01/2020;POINT(672543.704603 4214764.435839);testrun
+1.00E+18;10007: 6;Adela Sobotkova;2020-01-14 12:15:04.470 GMT;Adela Sobotkova;2020-01-14 12:15:04 GMT;10007;6;22.96636694;38.06399162;672499.839;4214740.466;4;Perennial Agriculture;Partially Fallow;Undulating Landscape;;40-60%;2;1;3;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";6;0;0;0;0;0;0;0;Yes;14/01/2020;POINT(672499.838979 4214740.465524);testrun
+1.00E+18;10008: 8;Adela Sobotkova;2020-01-14 12:21:08.849 GMT;Adela Sobotkova;2020-01-14 12:21:08 GMT;10008;8;22.96582364;38.06397076;672452.2223;4214737.142;16;Perennial Agriculture;Partially Fallow;Undulating Landscape;;40-60%;2;1;3;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";8;0;0;0;0;0;0;0;No;14/01/2020;POINT(672452.222346 4214737.142115);testrun
+1.00E+18;10009: 5;Adela Sobotkova;2020-01-14 12:27:10.455 GMT;Adela Sobotkova;2020-01-14 12:27:10 GMT;10009;5;22.96521571;38.06389053;672399.0751;4214727.111;4;Perennial Agriculture;Partially Fallow;Undulating Landscape;;40-60%;2;1;2;4;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";4;0;1;0;0;0;0;0;No;14/01/2020;POINT(672399.075116 4214727.110916);testrun
+1.00E+18;10010: 4;Adela Sobotkova;2020-01-14 12:34:40.066 GMT;Adela Sobotkova;2020-01-14 12:34:40 GMT;10010;4;22.96463478;38.06369412;672348.5686;4214704.238;4;Perennial Agriculture;Partially Fallow;Undulating Landscape;;40-60%;1;1;5;1;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - Charles Boyd (CB)
+4 - Lauren Wood (LW)
+5 - Michael Hitches (MH)";4;0;0;0;0;0;0;0;No;14/01/2020;POINT(672348.568579 4214704.237683);testrun
+1.00E+18;10011: 17;Adela Sobotkova;2020-01-20 07:24:02.212 GMT;Adela Sobotkova;2020-01-20 07:28:25 GMT;10011;17;22.861826;38.030519;663402.58;4210837.124;1,8;Pasture;N/A;Undulating Landscape;Gentle;40-60%;1;1;3;4;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";17;0;0;0;0;0;0;0;No;20/01/2020;POINT(663402.579996 4210837.123694);
+1.00E+18;10012: 2;Adela Sobotkova;2020-01-20 07:29:24.897 GMT;Adela Sobotkova;2020-01-20 07:34:50 GMT;10012;2;22.861849;38.030272;663405.1477;4210809.755;1,8;Pasture;N/A;Undulating Landscape;Gentle;40-60%;1;1;2;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";2;0;0;0;0;0;0;0;No;20/01/2020;POINT(663405.147669 4210809.755297);
+1.00E+18;10013: 18;Adela Sobotkova;2020-01-20 07:35:04.398 GMT;Adela Sobotkova;2020-01-20 07:38:32 GMT;10013;18;22.861908;38.030021;663410.8841;4210782.006;1,5;Pasture;N/A;Undulating Landscape;Gentle;40-60%;1;1;2;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";18;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663410.884063 4210782.006317);
+1.00E+18;10017: 12;Adela Sobotkova;2020-01-20 07:52:45.621 GMT;Adela Sobotkova;2020-01-20 07:55:51 GMT;10017;12;22.861392;38.029868;663365.9332;4210764.121;1,5;Pasture;N/A;Undulating Landscape;Gentle;0-20%;1;1;5;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";12;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663365.933228 4210764.121456);Y, focus not great
+1.00E+18;10014: 9;Adela Sobotkova;2020-01-20 07:40:35.504 GMT;Adela Sobotkova;2020-01-20 07:43:39 GMT;10014;9;22.861985;38.029765;663418.2115;4210753.734;1,75;Pasture;N/A;Undulating Landscape;Gentle;40-60%;2;1;3;2;1;4;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";9;0;0;0;0;0;0;0;No;20/01/2020;POINT(663418.211517 4210753.734148);
+1.00E+18;10015: 4;Adela Sobotkova;2020-01-20 07:45:44.777 GMT;Adela Sobotkova;2020-01-20 07:49:48 GMT;10015;4;22.861735;38.029461;663396.9438;4210719.561;1,5;Pasture;N/A;Undulating Landscape;Gentle;40-60%;1;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";4;0;0;0;0;0;0;0;No;20/01/2020;POINT(663396.943772 4210719.560763);
+1.00E+18;10016: 4;Adela Sobotkova;2020-01-20 07:50:04.808 GMT;Adela Sobotkova;2020-01-20 07:52:13 GMT;10016;4;22.861592;38.02969;663383.8833;4210744.721;1,5;Pasture;N/A;Undulating Landscape;Gentle;40-60%;1;1;4;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";4;0;0;0;0;0;0;0;No;20/01/2020;POINT(663383.883336 4210744.720841);
+1.00E+18;20001: 12;Petra Hermankova;2020-01-20 07:50:52.698 GMT;Petra Hermankova;2020-01-20 08:21:04 GMT;20001;12;22.85414167;38.03017833;662728.8634;4210785.842;0,8;Scrub;Partially Fallow;River Terrace;Gentle;60-80%;1;1;3;3;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";12;0;0;0;0;0;0;0;No;20/01/2020;POINT(662728.86342 4210785.841513);
+1.00E+18;10018: 12;Adela Sobotkova;2020-01-20 07:57:31.241 GMT;Adela Sobotkova;2020-01-20 08:01:55 GMT;10018;12;22.86126;38.030097;663353.8385;4210789.301;1,5;Pasture;N/A;Undulating Landscape;Gentle;40-60%;1;1;5;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";12;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663353.83845 4210789.30091);
+1.00E+18;10019: 39;Adela Sobotkova;2020-01-20 08:04:28.062 GMT;Adela Sobotkova;2020-01-20 08:09:16 GMT;10019;39;22.860944;38.030329;663325.587;4210814.49;1,5;Pasture;N/A;Undulating Landscape;Gentle;20-40%;1;1;2;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";39;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663325.586953 4210814.489986);
+1.00E+18;10020: 93;Adela Sobotkova;2020-01-20 08:10:30.064 GMT;Adela Sobotkova;2020-01-20 08:15:20 GMT;10020;93;22.861016;38.030072;663332.4774;4210786.098;1,5;Pasture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;2;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";93;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663332.477445 4210786.097999);Y, focus not great
+1.00E+18;10021: 68;Adela Sobotkova;2020-01-20 08:16:14.934 GMT;Adela Sobotkova;2020-01-20 08:21:32 GMT;10021;68;22.86116;38.029822;663345.6721;4210758.609;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";67;0;1;0;0;0;0;0;Yes;20/01/2020;POINT(663345.672085 4210758.609296);Y
+1.00E+18;10023: 294;Adela Sobotkova;2020-01-20 08:32:20.996 GMT;Adela Sobotkova;2020-01-20 08:42:40 GMT;10023;294;22.861013;38.02967;663333.1071;4210741.484;1,75;Perennial Agriculture;Partially Fallow;Undulating Landscape;Gentle;60-80%;1;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";294;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663333.107086 4210741.48404);Y
+1.00E+18;10024: 323;Adela Sobotkova;2020-01-20 08:43:44.845 GMT;Adela Sobotkova;2020-01-20 08:52:58 GMT;10024;323;22.860749;38.029661;663309.9549;4210740.022;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";323;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663309.954948 4210740.021523);Y
+1.00E+18;10025: 231;Adela Sobotkova;2020-01-20 08:53:19.107 GMT;Adela Sobotkova;2020-01-20 08:59:11 GMT;10025;231;22.860451;38.029651;663283.8207;4210738.388;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";231;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663283.820737 4210738.388384);Y, focus not great
+1.00E+18;10022: 18;Adela Sobotkova;2020-01-20 08:24:07.781 GMT;Adela Sobotkova;2020-01-20 08:26:37 GMT;10022;18;22.861237;38.029568;663352.9949;4210730.559;2,1;Pasture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";18;0;0;0;0;0;0;0;No;20/01/2020;POINT(663352.994883 4210730.559011);
+1.00E+18;10026: 99;Adela Sobotkova;2020-01-20 09:00:08.105 GMT;Adela Sobotkova;2020-01-20 09:08:15 GMT;10026;99;22.860184;38.029637;663260.4164;4210736.366;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;60-80%;1;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";99;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663260.416371 4210736.365903);Y
+1.00E+18;10027: 41;Adela Sobotkova;2020-01-20 09:09:00.134 GMT;Adela Sobotkova;2020-01-20 09:14:20 GMT;10027;41;22.859864;38.029616;663232.3756;4210733.474;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;3;2;1;4;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";41;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663232.375554 4210733.473658);Y
+1.00E+18;10028: 29;Adela Sobotkova;2020-01-20 10:12:07.850 GMT;Adela Sobotkova;2020-01-20 10:16:33 GMT;10028;29;22.859446;38.029322;4210700.116;663196.3388;2,4;Pasture;Partially Fallow;Undulating Landscape;Gentle;20-40%;2;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";29;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663196.338836 4210700.115513);Poor!
+1.00E+18;10029: 65;Adela Sobotkova;2020-01-20 10:17:12.894 GMT;Adela Sobotkova;2020-01-20 10:24:08 GMT;10029;65;22.859666;38.029352;663215.5824;4210703.831;2,5;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;2;1;3;2;1;6;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";65;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663215.58244 4210703.830755);Y, focus not great
+1.00E+18;10030: 60;Adela Sobotkova;2020-01-20 10:27:42.961 GMT;Adela Sobotkova;2020-01-20 10:34:08 GMT;10030;60;22.86031;38.029445;663271.9021;4210715.282;2,25;Scrub;Partially Fallow;Undulating Landscape;Gentle;40-60%;3;1;2;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";60;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663271.902122 4210715.281556);Y
+1.00E+18;10031: 181;Adela Sobotkova;2020-01-20 10:36:21.582 GMT;Adela Sobotkova;2020-01-20 10:43:58 GMT;10031;181;22.860662;38.029458;663302.7695;4210717.342;3;Scrub;Partially Fallow;Undulating Landscape;Gentle;40-60%;3;1;2;2;1;6;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";181;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663302.769513 4210717.342414);Y
+1.00E+18;10032: 64;Adela Sobotkova;2020-01-20 10:45:23.749 GMT;Adela Sobotkova;2020-01-20 11:00:39 GMT;10032;64;22.860041;38.030133;663246.7636;4210791.154;2;Perennial Agriculture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";64;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663246.763613 4210791.154341);Y
+1.00E+18;10033: 143;Adela Sobotkova;2020-01-20 11:00:48.323 GMT;Adela Sobotkova;2020-01-20 11:05:44 GMT;10033;143;22.860109;38.029918;663253.2095;4210767.416;2;Perennial Agriculture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;2;3;1;4;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";137;0;6;0;0;0;0;0;Yes;20/01/2020;POINT(663253.2095 4210767.41588);Y
+1.00E+18;10034: 55;Adela Sobotkova;2020-01-20 11:07:36.875 GMT;Adela Sobotkova;2020-01-20 11:11:58 GMT;10034;55;22.859863;38.029656;663232.199;4210737.911;2;Perennial Agriculture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";54;0;1;0;0;0;0;0;Yes;20/01/2020;POINT(663232.198984 4210737.910576);Y, focus not great
+1.00E+18;10035: 16;Adela Sobotkova;2020-01-20 11:12:25.900 GMT;Adela Sobotkova;2020-01-20 11:18:20 GMT;10035;16;22.859814;38.029885;663227.3897;4210763.236;2,25;Perennial Agriculture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;2;2;1;4;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";13;0;3;0;0;0;0;0;Yes;20/01/2020;POINT(663227.38975 4210763.235949);Y, focus not great
+1.00E+18;10037: 91;Adela Sobotkova;2020-01-20 11:27:07.208 GMT;Petra Hermankova;2020-01-20 15:43:29 GMT;10037;91;22.859232;38.029647;663176.8341;4210735.804;2,25;Perennial Agriculture;Partially Fallow;Undulating Landscape;Gentle;40-60%;2;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";91;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663176.834063 4210735.80408);Y
+1.00E+18;20010: 4;Petra Hermankova;2020-01-20 09:58:50.581 GMT;Petra Hermankova;2020-01-20 10:06:24 GMT;20010;4;22.85656814;38.03193259;4210984.756;662937.9537;3;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;2;1;3;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";4;0;0;0;0;0;0;0;No;20/01/2020;POINT(662937.953693 4210984.756061);
+1.00E+18;10038: 35;Adela Sobotkova;2020-01-20 11:33:22.432 GMT;Adela Sobotkova;2020-01-20 11:39:01 GMT;10038;35;22.859325;38.029405;663185.534;4210709.113;2,25;Pasture;Partially Fallow;Undulating Landscape;Gentle;40-60%;2;1;2;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";32;0;3;0;0;0;0;0;Yes;20/01/2020;POINT(663185.534033 4210709.113351);Y, focus not great
+1.00E+18;10041: 49;Adela Sobotkova;2020-01-20 12:02:56.330 GMT;Adela Sobotkova;2020-01-20 12:07:07 GMT;10041;49;22.85905;38.029386;663161.4385;4210706.522;3,3;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";49;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663161.438479 4210706.52228);Y
+1.00E+18;10044: 19;Adela Sobotkova;2020-01-20 12:25:11.535 GMT;Adela Sobotkova;2020-01-20 12:29:29 GMT;10044;19;22.858841;38.02932;663143.2402;4210698.832;1,75;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;2;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";19;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(663143.240245 4210698.831665);
+1.00E+18;10047: 57;Adela Sobotkova;2020-01-20 12:38:25.646 GMT;Adela Sobotkova;2020-01-20 12:44:42 GMT;10047;57;22.858554;38.029211;663118.291;4210686.233;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;20-40%;1;1;2;3;1;6;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";43;0;14;0;0;0;0;0;Yes;20/01/2020;POINT(663118.29102 4210686.232649);Y
+1.00E+18;10048: 35;Adela Sobotkova;2020-01-20 12:45:46.049 GMT;Adela Sobotkova;2020-01-20 12:57:06 GMT;10048;35;22.858201;38.029327;663087.0496;4210698.485;1,75;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;1;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";32;0;3;0;0;0;0;0;Yes;20/01/2020;POINT(663087.049619 4210698.485461);
+1.00E+18;10049: 48;Adela Sobotkova;2020-01-20 12:57:26.521 GMT;Adela Sobotkova;2020-01-20 13:04:22 GMT;10049;48;22.858296;38.029128;663095.8295;4210676.57;1,5;Scrub;Partially Fallow;Hillside;Gentle;20-40%;2;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";33;0;15;0;0;0;0;0;Yes;20/01/2020;POINT(663095.829494 4210676.569729);Y
+1.00E+18;10052: 38;Adela Sobotkova;2020-01-21 11:35:10.868 GMT;Adela Sobotkova;2020-01-21 11:40:53 GMT;10052;38;22.857826;38.029112;663054.6113;4210673.97;2;Scrub;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";19;0;19;0;0;0;0;0;Yes;21/01/2020;POINT(663054.611278 4210673.969783);
+1.00E+18;10055: 67;Adela Sobotkova;2020-01-21 11:53:28.201 GMT;Adela Sobotkova;2020-01-21 11:59:42 GMT;10055;67;22.857007;38.029275;662982.3632;4210690.621;2;Pasture;Partially Fallow;Undulating Landscape;Gentle;20-40%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";11;0;56;0;0;0;0;0;Yes;21/01/2020;POINT(662982.363226 4210690.621179);
+1.00E+18;10056: 33;Adela Sobotkova;2020-01-21 12:00:20.438 GMT;Adela Sobotkova;2020-01-21 12:05:06 GMT;10056;33;22.856715;38.029282;662956.7178;4210690.886;2;Pasture;Partially Fallow;Undulating Landscape;Gentle;20-40%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";19;0;14;0;0;0;0;0;Yes;21/01/2020;POINT(662956.717813 4210690.886049);
+1.00E+18;10057: 192;Adela Sobotkova;2020-01-21 12:08:16.670 GMT;Adela Sobotkova;2020-01-21 12:15:28 GMT;10057;192;22.856361;38.029128;662925.9872;4210673.177;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;20-40%;1;1;3;2;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";176;0;16;0;0;0;0;0;Yes;21/01/2020;POINT(662925.987171 4210673.176682);
+1.00E+18;10058: 206;Adela Sobotkova;2020-01-21 12:15:59.557 GMT;Adela Sobotkova;2020-01-21 12:25:40 GMT;10058;206;22.856601;38.029168;662946.9642;4210678.036;1,75;Pasture;Partially Fallow;River Terrace;Gentle;20-40%;2;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";196;0;10;0;0;0;0;0;Yes;21/01/2020;POINT(662946.964244 4210678.036005);
+1.00E+18;10059: 88;Adela Sobotkova;2020-01-21 12:26:14.525 GMT;Adela Sobotkova;2020-01-21 12:31:23 GMT;10059;88;22.856844;38.029147;662968.3398;4210676.132;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;20-40%;2;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";73;0;15;0;0;0;0;0;Yes;21/01/2020;POINT(662968.339808 4210676.131667);
+1.00E+18;10036: 27;Adela Sobotkova;2020-01-20 11:23:09.623 GMT;Adela Sobotkova;2020-01-20 11:26:51 GMT;10036;27;22.859217;38.029888;663174.9827;4210762.521;2;Perennial Agriculture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;2;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";23;0;4;0;0;0;0;0;No;20/01/2020;POINT(663174.982652 4210762.520762);
+1.00E+18;10060: 131;Adela Sobotkova;2020-01-21 12:32:22.802 GMT;Adela Sobotkova;2020-01-21 12:38:53 GMT;10060;131;22.857136;38.029075;662994.1293;4210668.654;1,75;Pasture;Partially Fallow;River Terrace;Gentle;40-60%;1;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";117;0;14;0;0;0;0;0;Yes;21/01/2020;POINT(662994.12935 4210668.653989);
+1.00E+18;10061: 52;Adela Sobotkova;2020-01-21 12:39:16.565 GMT;Adela Sobotkova;2020-01-21 12:44:25 GMT;10061;52;22.85736;38.028999;663013.9592;4210660.613;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;0-20%;2;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";23;0;29;0;0;0;0;0;Yes;21/01/2020;POINT(663013.95918 4210660.61328);
+1.00E+18;10063: 93;Adela Sobotkova;2020-01-21 12:53:52.344 GMT;Adela Sobotkova;2020-01-21 12:59:09 GMT;10063;93;22.857891;38.028957;663060.6603;4210656.884;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;20-40%;2;1;3;3;1;4;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";12;0;81;0;0;0;0;0;Yes;21/01/2020;POINT(663060.660293 4210656.883937);
+1.00E+18;10064: 169;Adela Sobotkova;2020-01-22 07:08:06.423 GMT;Adela Sobotkova;2020-01-22 07:15:43 GMT;10064;169;22.857255;38.028773;663005.2439;4210635.351;2,4;Forest;Partially Fallow;Undulating Landscape;Gentle;40-60%;3;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";60;0;109;0;0;0;0;0;Yes;22/01/2020;POINT(663005.243901 4210635.350665);
+1.00E+18;10039: 18;Adela Sobotkova;2020-01-20 11:41:30.776 GMT;Adela Sobotkova;2020-01-20 11:48:21 GMT;10039;18;22.859099;38.028906;663166.8045;4210653.344;2,25;Scrub;Partially Fallow;Undulating Landscape;Gentle;0-20%;3;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";18;0;0;0;0;0;0;0;No;20/01/2020;POINT(663166.804487 4210653.344199);
+1.00E+18;10040: 25;Adela Sobotkova;2020-01-20 11:55:04.451 GMT;Adela Sobotkova;2020-01-20 12:02:25 GMT;10040;25;22.859171;38.029134;663172.6183;4210678.771;3,3;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;3;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";25;0;0;0;0;0;0;0;No;20/01/2020;POINT(663172.618279 4210678.771015);
+1.00E+18;10065: 46;Adela Sobotkova;2020-01-22 07:16:04.992 GMT;Adela Sobotkova;2020-01-22 07:23:18 GMT;10065;46;22.856987;38.028709;662981.8623;4210627.779;2,1;Forest;Partially Fallow;Undulating Landscape;Gentle;40-60%;3;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";38;0;8;0;0;0;0;0;Yes;22/01/2020;POINT(662981.862258 4210627.778902);
+1.00E+18;10042: 17;Adela Sobotkova;2020-01-20 12:07:34.244 GMT;Adela Sobotkova;2020-01-20 12:10:18 GMT;10042;17;22.859008;38.02964;663157.1884;4210734.634;2,7;Pasture;Partially Fallow;Undulating Landscape;Gentle;20-40%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";17;0;0;0;0;0;0;0;No;20/01/2020;POINT(663157.188396 4210734.634144);
+1.00E+18;10043: 24;Adela Sobotkova;2020-01-20 12:20:07.879 GMT;Adela Sobotkova;2020-01-20 12:24:53 GMT;10043;24;22.85876;38.029536;663135.6514;4210722.658;1,75;Pasture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";24;0;0;0;0;0;0;0;No;20/01/2020;POINT(663135.651371 4210722.658355);
+1.00E+18;10066: 126;Adela Sobotkova;2020-01-22 07:24:42.722 GMT;Adela Sobotkova;2020-01-22 07:33:06 GMT;10066;126;22.856739;38.028757;662959.9879;4210632.671;1,8;Forest;Partially Fallow;Undulating Landscape;Gentle;60-80%;1;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";112;0;14;0;0;0;0;0;Yes;22/01/2020;POINT(662959.987856 4210632.670548);
+1.00E+18;10045: 1;Adela Sobotkova;2020-01-20 12:30:01.217 GMT;Adela Sobotkova;2020-01-20 12:33:56 GMT;10045;1;22.85886;38.029032;663145.5469;4210666.907;1,75;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;2;1;3;2;1;4;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";1;0;0;0;0;0;0;0;No;20/01/2020;POINT(663145.546925 4210666.906559);
+1.00E+18;10046: 17;Adela Sobotkova;2020-01-20 12:34:03.098 GMT;Adela Sobotkova;2020-01-20 12:38:21 GMT;10046;17;22.858643;38.028996;663126.5798;4210662.531;1,75;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;2;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Alexandra Hewitt (AH)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";16;0;1;0;0;0;0;0;No;20/01/2020;POINT(663126.579843 4210662.53095);
+1.00E+18;10067: 216;Adela Sobotkova;2020-01-22 07:34:39.573 GMT;Adela Sobotkova;2020-01-22 07:47:48 GMT;10067;216;22.856524;38.028793;662941.0366;4210636.288;1,5;Forest;Partially Fallow;Undulating Landscape;Gentle;60-80%;1;1;3;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";188;0;14;0;0;0;0;14;Yes;22/01/2020;POINT(662941.036621 4210636.288491);
+1.00E+18;10068: 73;Adela Sobotkova;2020-01-22 07:48:19.893 GMT;Adela Sobotkova;2020-01-22 08:13:23 GMT;10068;73;22.856059;38.028852;662900.0909;4210642.021;1,5;Forest;Partially Fallow;Hillside;Steep;0-20%;3;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";24;0;49;0;0;0;0;0;Yes;22/01/2020;POINT(662900.090915 4210642.020606);
+1.00E+18;10069: 70;Adela Sobotkova;2020-01-22 08:03:13.302 GMT;Adela Sobotkova;2020-01-22 08:34:43 GMT;10069;70;22.855797;38.028841;662877.1185;4210640.341;1,75;Forest;Partially Fallow;Hillside;Steep;0-20%;3;1;4;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";34;0;36;0;0;0;0;0;Yes;22/01/2020;POINT(662877.11846 4210640.340899);
+1.00E+18;10070: 174;Adela Sobotkova;2020-01-22 08:13:53.490 GMT;Adela Sobotkova;2020-01-22 08:47:44 GMT;10070;174;22.855446;38.028897;662846.1857;4210645.94;1,5;Forest;Partially Fallow;Undulating Landscape;Gentle;40-60%;2;1;2;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";126;0;48;0;0;0;0;0;Yes;22/01/2020;POINT(662846.185722 4210645.940124);
+1.00E+18;10071: 127;Adela Sobotkova;2020-01-22 08:47:50.299 GMT;Adela Sobotkova;2020-01-22 08:56:00 GMT;10071;127;22.855179;38.028919;662822.7013;4210647.914;1,5;Forest;Partially Fallow;Hillside;Steep;20-40%;3;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";92;0;35;0;0;0;0;0;Yes;22/01/2020;POINT(662822.701334 4210647.913715);
+1.00E+18;20019: 48;Petra Hermankova;2020-01-21 07:19:04.795 GMT;Petra Hermankova;2020-01-21 07:26:22 GMT;20019;48;22.85877741;38.02993329;663136.2976;4210766.774;3;Scrub;Partially Fallow;Undulating Landscape;Gentle;40-60%;2;1;3;2;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";41;0;7;0;0;0;0;0;No;21/01/2020;POINT(663136.297644 4210766.774469);
+1.00E+18;10073: 24;Adela Sobotkova;2020-01-22 09:09:01.638 GMT;Adela Sobotkova;2020-01-22 09:16:26 GMT;10073;24;22.854494;38.028951;662762.5053;4210650.265;1,75;Scrub;Partially Fallow;Hillside;Steep;0-20%;4;1;4;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";15;0;9;0;0;0;0;0;Yes;22/01/2020;POINT(662762.505292 4210650.265111);
+1.00E+18;10074: 25;Adela Sobotkova;2020-01-22 09:18:38.891 GMT;Adela Sobotkova;2020-01-22 09:26:16 GMT;10074;25;22.854198;38.028909;662736.6171;4210645.086;1,5;Forest;Partially Fallow;Hillside;Steep;0-20%;5;1;5;4;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";20;0;5;0;0;0;0;0;Yes;22/01/2020;POINT(662736.617143 4210645.086302);
+1.00E+18;10075: 97;Adela Sobotkova;2020-01-22 09:28:47.760 GMT;Adela Sobotkova;2020-01-22 09:37:25 GMT;10075;97;22.853889;38.028715;662709.9242;4210623.018;1,5;Forest;Partially Fallow;Hillside;Very Steep;0-20%;5;1;5;5;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";97;0;0;0;0;0;0;0;Yes;22/01/2020;POINT(662709.924236 4210623.017876);
+1.00E+18;10076: 19;Adela Sobotkova;2020-01-22 09:38:21.154 GMT;Adela Sobotkova;2020-01-22 09:43:12 GMT;10076;19;22.854242;38.028789;662740.7448;4210631.847;1,5;Forest;Partially Fallow;Hillside;Steep;20-40%;3;1;3;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";11;0;8;0;0;0;0;0;Yes;22/01/2020;POINT(662740.744779 4210631.847316);
+1.00E+18;10077: 12;Adela Sobotkova;2020-01-22 09:44:19.035 GMT;Adela Sobotkova;2020-01-22 09:50:36 GMT;10077;12;22.854482;38.028833;662761.7132;4210637.15;1,5;Forest;Partially Fallow;Hillside;Steep;20-40%;2;1;2;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";10;0;2;0;0;0;0;0;Yes;22/01/2020;POINT(662761.713191 4210637.150022);
+1.00E+18;10079: 169;Adela Sobotkova;2020-01-22 09:56:57.181 GMT;Adela Sobotkova;2020-01-22 10:05:20 GMT;10079;169;22.854988;38.028794;662806.2132;4210633.708;1,75;Forest;Partially Fallow;Hillside;Steep;0-20%;3;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";49;0;120;0;0;0;0;0;Yes;22/01/2020;POINT(662806.213249 4210633.708353);
+1.00E+18;10080: 181;Adela Sobotkova;2020-01-22 10:05:44.138 GMT;Adela Sobotkova;2020-01-22 10:13:59 GMT;10080;181;22.855279;38.028694;662831.977;4210623.121;2,25;Forest;Partially Fallow;Hillside;Steep;0-20%;3;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";96;0;85;0;0;0;0;0;Yes;22/01/2020;POINT(662831.976975 4210623.121342);
+1.00E+18;10081: 38;Adela Sobotkova;2020-01-22 10:16:00.414 GMT;Adela Sobotkova;2020-01-22 10:24:20 GMT;10081;38;22.85551;38.028565;662852.5385;4210609.211;2,25;Forest;Partially Fallow;Hillside;Steep;20-40%;3;1;3;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";32;0;6;0;0;0;0;0;Yes;22/01/2020;POINT(662852.53853 4210609.211265);
+1.00E+18;10085: 96;Adela Sobotkova;2020-01-22 12:30:40.218 GMT;Adela Sobotkova;2020-01-22 12:38:40 GMT;10085;96;22.856788;38.028593;662964.6522;4210614.558;1,5;Forest;Partially Fallow;Undulating Landscape;Gentle;20-40%;3;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";55;0;41;0;0;0;0;0;Yes;22/01/2020;POINT(662964.652248 4210614.557889);
+1.00E+18;10087: 1822;Adela Sobotkova;2020-01-23 07:08:34.249 GMT;Adela Sobotkova;2020-01-23 07:29:16 GMT;10087;1822;22.854373;38.028224;662753.4937;4210569.38;1,5;Pasture;Partially Fallow;Valley Bottom;Level;40-60%;1;1;2;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";1817;0;5;0;0;0;0;0;Yes;23/01/2020;POINT(662753.493706 4210569.380432);
+1.00E+18;10088: 838;Adela Sobotkova;2020-01-23 07:29:52.386 GMT;Adela Sobotkova;2020-01-23 07:41:50 GMT;10088;838;22.85464;38.028181;662777.0248;4210565.076;1,5;Pasture;Partially Fallow;Valley Bottom;Level;60-80%;1;1;3;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";830;0;7;0;1;0;0;0;Yes;23/01/2020;POINT(662777.024777 4210565.076334);
+1.00E+18;10089: 618;Adela Sobotkova;2020-01-23 07:43:18.731 GMT;Adela Sobotkova;2020-01-23 07:55:04 GMT;10089;618;22.854887;38.028131;662798.8159;4210559.961;1,5;Pasture;Partially Fallow;Valley Bottom;Level;60-80%;1;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";611;0;7;0;0;0;0;0;Yes;23/01/2020;POINT(662798.815875 4210559.960511);
+1.00E+18;10090: 1092;Adela Sobotkova;2020-01-23 07:55:15.005 GMT;Adela Sobotkova;2020-01-23 08:07:13 GMT;10090;1092;22.855163;38.028101;662823.1082;4210557.115;1,5;Pasture;Partially Fallow;Valley Bottom;Level;60-80%;2;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";1090;0;2;0;0;0;0;0;Yes;23/01/2020;POINT(662823.108194 4210557.114872);
+1.00E+18;10050: 89;Adela Sobotkova;2020-01-21 11:19:54.210 GMT;Adela Sobotkova;2020-01-21 11:26:57 GMT;10050;89;22.858053;38.028862;663075.0904;4210646.626;2,25;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;1;1;2;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";16;0;73;0;0;0;0;0;No;21/01/2020;POINT(663075.090367 4210646.626256);
+1.00E+18;10094: 223;Adela Sobotkova;2020-01-23 08:31:21.444 GMT;Adela Sobotkova;2020-01-23 08:41:13 GMT;10094;223;22.856566;38.028053;662946.3629;4210554.247;1,75;Forest;Partially Fallow;Hillside;Steep;20-40%;4;1;4;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";154;0;69;0;0;0;0;0;Yes;23/01/2020;POINT(662946.362909 4210554.246681);
+1.00E+18;10051: 66;Adela Sobotkova;2020-01-21 11:27:23.384 GMT;Faims Admin;2020-01-21 14:27:58 GMT;10051;66;22.858056;38.029071;4210669.824;663074.8902;2,25;Scrub;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;2;2;1;4;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";40;0;26;0;0;0;0;0;No;21/01/2020;POINT(663054.613496 4210673.858817);
+1.00E+18;10095: 200;Adela Sobotkova;2020-01-23 09:06:14.066 GMT;Adela Sobotkova;2020-01-23 09:14:36 GMT;10095;200;22.857018;38.027711;662986.7953;4210517.088;2;Forest;Partially Fallow;Valley Bottom;Gentle;20-40%;3;1;3;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";135;0;65;0;0;0;0;0;Yes;23/01/2020;POINT(662986.795265 4210517.088391);
+1.00E+18;10098: 60;Adela Sobotkova;2020-01-23 09:33:03.913 GMT;Adela Sobotkova;2020-01-23 09:38:12 GMT;10098;60;22.856179;38.0278;662912.9545;4210525.494;1,75;Forest;Partially Fallow;Valley Bottom;Gentle;20-40%;3;1;3;3;2;5;4;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)";2;0;58;0;0;0;0;0;Yes;23/01/2020;POINT(662912.954453 4210525.493834);
+1.00E+18;10053: 23;Adela Sobotkova;2020-01-21 11:42:53.092 GMT;Adela Sobotkova;2020-01-21 11:47:52 GMT;10053;23;22.85754;38.029222;663029.2641;4210685.675;2;Pasture;Partially Fallow;Undulating Landscape;Gentle;40-60%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";13;0;10;0;0;0;0;0;No;21/01/2020;POINT(663029.26408 4210685.674533);
+1.00E+18;10054: 49;Adela Sobotkova;2020-01-21 11:48:08.683 GMT;Adela Sobotkova;2020-01-21 11:53:05 GMT;10054;49;22.857277;38.029228;663006.1663;4210685.879;2;Pasture;Partially Fallow;Undulating Landscape;Gentle;20-40%;1;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";10;0;39;0;0;0;0;0;No;21/01/2020;POINT(663006.166296 4210685.87914);
+1.00E+18;10100: 47;Adela Sobotkova;2020-01-23 10:06:16.633 GMT;Adela Sobotkova;2020-01-23 10:12:49 GMT;10100;47;22.855712;38.02767;662872.2513;4210510.25;2,25;Forest;Partially Fallow;Valley Bottom;Gentle;0-20%;3;1;3;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";7;0;40;0;0;0;0;0;Yes;23/01/2020;POINT(662872.251282 4210510.249883);
+1.00E+18;10102: 134;Adela Sobotkova;2020-01-23 10:20:49.348 GMT;Adela Sobotkova;2020-01-23 10:29:48 GMT;10102;134;22.85512;38.027746;4210517.646;662820.1199;3;Forest;Partially Fallow;Valley Bottom;Gentle;20-40%;4;1;3;3;2;6;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";53;0;81;0;0;0;0;0;Yes;23/01/2020;POINT(662820.119893 4210517.646361);
+1.00E+18;10112: 74;Adela Sobotkova;2020-01-23 12:16:36.612 GMT;Adela Sobotkova;2020-01-23 12:19:53 GMT;10112;74;22.856189;38.030837;662907.1037;4210862.518;1,75;Scrub;Other;Valley Bottom;Gentle;20-40%;1;1;2;4;3;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Jacob Kiefel (JK)
+5 - Michael Hitches (MH)";58;0;16;0;0;0;0;0;Yes;23/01/2020;POINT(662907.103729 4210862.517531);
+1.00E+18;10121: 25;Adela Sobotkova;2020-01-28 06:59:05.088 GMT;Adela Sobotkova;2020-01-28 06:59:30 GMT;10121;25;22.864892;38.031331;663669.8821;4210932.623;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";15;0;10;0;0;0;0;0;Yes;28/01/2020;POINT(663669.882132 4210932.622673);
+1.00E+18;10139: 3;Adela Sobotkova;2020-01-28 08:58:59.781 GMT;Adela Sobotkova;2020-01-28 08:59:24 GMT;10139;3;22.86372;38.0334;663562.4114;4211160.15;1,5;Scrub;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;3;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";1;0;2;0;0;0;0;0;Yes;28/01/2020;POINT(663562.411408 4211160.150444);
+1.00E+18;10144: 2;Adela Sobotkova;2020-01-28 09:24:51.887 GMT;Adela Sobotkova;2020-01-28 09:24:59 GMT;10144;2;22.863944;38.032318;663584.479;4211040.478;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;4;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";2;0;0;0;0;0;0;0;Yes;28/01/2020;POINT(663584.479005 4211040.478351);
+1.00E+18;10147: 31;Adela Sobotkova;2020-01-28 10:15:45.381 GMT;Adela Sobotkova;2020-01-28 10:16:13 GMT;10147;31;22.863886;38.031621;4210963.032;663580.939;2,4;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";30;0;1;0;0;0;0;0;Yes;28/01/2020;POINT(663580.939047 4210963.03231);
+1.00E+18;20000: 16;Petra Hermankova;2020-01-20 07:31:40.466 GMT;Petra Hermankova;2020-01-20 07:50:12 GMT;20000;16;22.853945;38.02999833;662711.9998;4210765.523;0,9;Scrub;Partially Fallow;River Terrace;Gentle;60-80%;1;1;2;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Reeham Khandkar (RK)
+3 - Samantha Mills (SM)
+4 - Sarah Roach (SR)
+5 - Zed Griseh (ZG)";16;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(662711.999806 4210765.523243);
+1.00E+18;20002: 7;Petra Hermankova;2020-01-20 08:07:35.829 GMT;Petra Hermankova;2020-01-20 08:20:55 GMT;20002;7;22.85437155;38.03033836;662748.6863;4210804.002;3;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;3;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";7;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(662748.686257 4210804.002005);
+1.00E+18;20003: 5;Petra Hermankova;2020-01-20 08:21:24.877 GMT;Petra Hermankova;2020-01-20 08:33:35 GMT;20003;5;22.85465;38.030535;4210826.31;662772.6916;1,9;Scrub;Partially Fallow;River Terrace;Gentle;20-40%;3;2;5;4;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";5;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(662772.691559 4210826.309638);Y, focus not great
+1.00E+18;20004: 5;Petra Hermankova;2020-01-20 08:34:57.623 GMT;Petra Hermankova;2020-01-20 08:47:36 GMT;20004;5;22.85491;38.03074833;662795.04;4210850.438;1,9;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;3;1;4;3;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";5;0;0;0;0;0;0;0;Yes;20/01/2020;POINT(662795.039977 4210850.437849);Y, focus not great
+1.00E+18;10062: 49;Adela Sobotkova;2020-01-21 12:46:47.557 GMT;Adela Sobotkova;2020-01-21 12:53:43 GMT;10062;49;22.857661;38.028979;663040.4235;4210658.922;1,75;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;3;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";13;0;36;0;0;0;0;0;No;21/01/2020;POINT(663040.423489 4210658.921802);
+1.00E+18;20005: 16;Petra Hermankova;2020-01-20 08:48:00.611 GMT;Petra Hermankova;2020-01-20 08:58:36 GMT;20005;16;22.85520167;38.03089833;662820.3079;4210867.594;1,6;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;3;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";14;0;2;0;0;0;0;0;Yes;20/01/2020;POINT(662820.307939 4210867.593692);Y, focus not great
+1.00E+18;20006: 18;Petra Hermankova;2020-01-20 08:59:50.541 GMT;Petra Hermankova;2020-01-20 09:10:16 GMT;20006;18;22.85555333;38.031055;662850.8273;4210885.595;1,4;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;2;3;4;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";11;0;7;0;0;0;0;0;Yes;20/01/2020;POINT(662850.827321 4210885.594507);Y
+1.00E+18;20007: 17;Petra Hermankova;2020-01-20 09:13:32.117 GMT;Petra Hermankova;2020-01-20 09:27:00 GMT;20007;17;22.85580667;38.03120333;662872.7342;4210902.498;1,2;Scrub;Partially Fallow;River Terrace;Gentle;20-40%;2;1;4;3;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";12;0;3;0;2;0;0;0;Yes;20/01/2020;POINT(662872.734187 4210902.498422);Poor!
+1.00E+18;20008: 18;Petra Hermankova;2020-01-20 09:28:55.313 GMT;Petra Hermankova;2020-01-20 09:38:29 GMT;20008;18;22.85615333;38.0314;662902.7258;4210924.929;1,1;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;4;2;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";15;0;3;0;0;0;0;0;Yes;20/01/2020;POINT(662902.725849 4210924.929352);Y, focus not great
+1.00E+18;20009: 12;Petra Hermankova;2020-01-20 09:40:48.070 GMT;Petra Hermankova;2020-01-20 09:58:38 GMT;20009;12;22.85635167;38.03162667;662919.6315;4210950.429;1;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;2;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";7;0;5;0;0;0;0;0;Yes;20/01/2020;POINT(662919.631532 4210950.429421);Y
+1.00E+18;20011: 8;Adela Sobotkova;2020-01-20 10:29:18.466 GMT;Adela Sobotkova;2020-01-20 10:42:03 GMT;20011;8;22.85691217;38.03184171;662968.3509;4210975.274;3;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;2;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";6;0;2;0;0;0;0;0;Yes;20/01/2020;POINT(662968.350872 4210975.274455);
+1.00E+18;20012: 73;Adela Sobotkova;2020-01-20 10:41:22.287 GMT;Adela Sobotkova;2020-01-20 10:41:39 GMT;20012;73;22.85663122;38.03159408;662944.2406;4210947.303;3;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;3;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";71;0;0;0;2;0;0;0;Yes;20/01/2020;POINT(662944.240643 4210947.303378);Y, focus not great
+1.00E+18;20013: 85;Adela Sobotkova;2020-01-20 10:59:07.804 GMT;Adela Sobotkova;2020-01-20 11:08:55 GMT;20013;85;22.8566639;38.03129434;662947.7731;4210914.1;3;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;3;1;4;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";81;0;3;0;1;0;0;0;Yes;20/01/2020;POINT(662947.773077 4210914.099707);
+1.00E+18;20014: 137;Adela Sobotkova;2020-01-20 11:14:34.172 GMT;Adela Sobotkova;2020-01-20 11:25:10 GMT;20014;137;22.85668006;38.03092425;662950.0115;4210873.06;3;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;4;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";133;0;3;0;1;0;0;0;Yes;20/01/2020;POINT(662950.011493 4210873.059954);
+1.00E+18;20015: 98;Petra Hermankova;2020-01-20 11:27:29.015 GMT;Petra Hermankova;2020-01-20 11:35:45 GMT;20015;98;22.85692434;38.03116552;662970.9175;4210900.261;3;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;3;1;5;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";94;0;2;0;2;0;0;0;Yes;20/01/2020;POINT(662970.917475 4210900.260949);
+1.00E+18;20016: 81;Petra Hermankova;2020-01-20 11:37:38.119 GMT;Petra Hermankova;2020-01-20 11:45:32 GMT;20016;81;22.85713042;38.03137936;662988.5317;4210924.352;3;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;2;1;3;3;1;6;5;5;5;"1 - Sarah Roach (SR)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";77;0;4;0;0;0;0;0;Yes;20/01/2020;POINT(662988.531658 4210924.351982);Y
+1.00E+18;20017: 34;Petra Hermankova;2020-01-21 06:58:43.140 GMT;Petra Hermankova;2020-01-21 07:10:29 GMT;20017;34;22.85923857;38.02981404;663177.0403;4210754.351;16;Pasture;Partially Fallow;Undulating Landscape;Level;20-40%;1;1;4;1;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";12;0;22;0;0;0;0;0;Yes;21/01/2020;POINT(663177.040273 4210754.35132);Poor!
+1.00E+18;20018: 68;Petra Hermankova;2020-01-21 07:11:35.108 GMT;Petra Hermankova;2020-01-21 07:18:09 GMT;20018;68;22.85900654;38.02995281;663156.3661;4210769.343;3;Scrub;Partially Fallow;River Terrace;Gentle;40-60%;1;1;3;2;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";53;0;15;0;0;0;0;0;Yes;21/01/2020;POINT(663156.366137 4210769.343402);
+1.00E+18;20020: 47;Petra Hermankova;2020-01-21 07:26:25.070 GMT;Petra Hermankova;2020-01-21 07:33:47 GMT;20020;47;22.85847542;38.02977675;663110.1389;4210748.875;3;Pasture;Partially Fallow;River Terrace;Gentle;20-40%;2;1;3;3;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";26;0;21;0;0;0;0;0;Yes;21/01/2020;POINT(663110.138915 4210748.874722);
+1.00E+18;20021: 144;Petra Hermankova;2020-01-21 07:34:56.132 GMT;Petra Hermankova;2020-01-21 07:47:31 GMT;20021;144;22.85819103;38.02982606;663085.0681;4210753.847;3;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;2;1;4;3;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";113;0;31;0;0;0;0;0;Yes;21/01/2020;POINT(663085.068059 4210753.84729);
+1.00E+18;20022: 421;Petra Hermankova;2020-01-21 07:48:56.803 GMT;Petra Hermankova;2020-01-21 07:59:25 GMT;20022;421;22.85797329;38.02991813;663065.7515;4210763.682;3;Scrub;Partially Fallow;Other;Level;40-60%;1;1;2;4;1;6;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";184;0;237;0;0;0;0;0;Yes (2 sample bags);21/01/2020;POINT(663065.75154 4210763.681514);
+1.00E+18;20023: 286;Petra Hermankova;2020-01-21 07:59:30.606 GMT;Petra Hermankova;2020-01-21 08:20:49 GMT;20023;286;22.85763445;38.0297696;663036.3403;4210746.606;3;Scrub;Partially Fallow;Other;Level;20-40%;1;1;3;3;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";38;0;248;0;0;0;0;0;Yes;21/01/2020;POINT(663036.340261 4210746.605822);
+1.00E+18;10072: 6;Adela Sobotkova;2020-01-22 08:58:21.337 GMT;Adela Sobotkova;2020-01-22 09:08:03 GMT;10072;6;22.854838;38.028958;662792.684;4210651.644;1,8;Forest;Partially Fallow;Hillside;Steep;0-20%;4;1;4;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";3;0;3;0;0;0;0;0;No;22/01/2020;POINT(662792.684048 4210651.64422);
+1.00E+18;20024: 259;Petra Hermankova;2020-01-21 08:22:07.028 GMT;Petra Hermankova;2020-01-21 08:29:56 GMT;20024;259;22.85754329;38.02978097;663028.3136;4210747.707;3;Scrub;Partially Fallow;Other;Gentle;40-60%;2;1;2;4;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";59;0;200;0;0;0;0;0;Yes;21/01/2020;POINT(663028.313594 4210747.707347);
+1.00E+18;20025: 96;Petra Hermankova;2020-01-21 08:34:21.945 GMT;Petra Hermankova;2020-01-21 08:41:55 GMT;20025;96;22.85696577;38.02992468;662977.304;4210762.642;3;Scrub;Partially Fallow;Other;Gentle;40-60%;2;1;2;4;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";29;0;67;0;0;0;0;0;Yes;21/01/2020;POINT(662977.304033 4210762.641562);
+1.00E+18;20026: 66;Petra Hermankova;2020-01-21 08:43:07.124 GMT;Petra Hermankova;2020-01-21 08:52:24 GMT;20026;66;22.85675473;38.02992847;662958.7721;4210762.692;3;Scrub;Partially Fallow;Other;Gentle;40-60%;2;1;2;4;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";32;0;34;0;0;0;0;0;Yes;21/01/2020;POINT(662958.772065 4210762.69219);
+1.00E+18;20048: 15;Petra Hermankova;2020-01-22 09:28:27.540 GMT;Petra Hermankova;2020-01-22 09:35:33 GMT;20048;15;22.86007928;38.03077339;663248.7016;4210862.284;3;Pasture;Partially Fallow;Other;Gentle;20-40%;1;2;4;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";5;0;10;0;0;0;0;0;No;22/01/2020;POINT(663248.70158 4210862.284024);
+1.00E+18;20027: 23;Petra Hermankova;2020-01-21 08:50:37.843 GMT;Petra Hermankova;2020-01-21 08:50:58 GMT;20027;23;22.85629545;38.03001928;662918.2591;4210771.964;3;Forest;Partially Fallow;Other;Gentle;40-60%;2;1;2;3;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";9;0;14;0;0;0;0;0;Yes;21/01/2020;POINT(662918.259074 4210771.964298);
+1.00E+18;20028: 423;Petra Hermankova;2020-01-21 09:33:37.985 GMT;Petra Hermankova;2020-01-21 09:44:22 GMT;20028;423;22.85729129;38.0301266;663005.4284;4210785.619;3;Scrub;Partially Fallow;Other;Gentle;40-60%;1;1;3;3;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";140;0;283;0;0;0;0;0;Yes;21/01/2020;POINT(663005.428395 4210785.618582);
+1.00E+18;20029: 442;Petra Hermankova;2020-01-21 09:46:39.857 GMT;Petra Hermankova;2020-01-21 09:59:08 GMT;20029;442;22.85750313;38.03006976;663024.1479;4210779.683;3;Scrub;Partially Fallow;Other;Gentle;40-60%;2;1;2;4;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";250;0;192;0;0;0;0;0;Yes;21/01/2020;POINT(663024.147881 4210779.683301);
+1.00E+18;10078: 22;Adela Sobotkova;2020-01-22 09:52:00.674 GMT;Adela Sobotkova;2020-01-22 14:25:22 GMT;10078;22;22.854774;38.028832;662787.3455;4210637.55;1,5;Forest;Partially Fallow;Hillside;Steep;0-20%;3;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";10;0;12;0;0;0;0;0;No;22/01/2020;POINT(662787.34545 4210637.550334);
+1.00E+18;20030: 162;Petra Hermankova;2020-01-21 10:00:29.702 GMT;Petra Hermankova;2020-01-21 10:14:40 GMT;20030;162;22.8577762;38.03020945;663047.8069;4210795.663;3;Scrub;Partially Fallow;Other;Gentle;40-60%;2;1;2;4;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";95;0;67;0;0;0;0;0;Yes;21/01/2020;POINT(663047.806867 4210795.663402);
+1.00E+18;20031: 216;Petra Hermankova;2020-01-21 10:18:08.212 GMT;Petra Hermankova;2020-01-21 10:29:51 GMT;20031;216;22.85800192;38.03036567;663067.2726;4210813.394;3;Scrub;Partially Fallow;Other;Gentle;40-60%;2;1;2;4;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";176;0;40;0;0;0;0;0;Yes;21/01/2020;POINT(663067.272568 4210813.394065);
+1.00E+18;20032: 97;Petra Hermankova;2020-01-21 10:30:24.819 GMT;Petra Hermankova;2020-01-21 10:44:21 GMT;20032;97;22.8577536;38.03026405;663045.7016;4210801.682;3;Scrub;Partially Fallow;Other;Gentle;40-60%;2;1;2;4;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";82;0;15;0;0;0;0;0;Yes;21/01/2020;POINT(663045.701596 4210801.681648);
+1.00E+18;10082: 57;Adela Sobotkova;2020-01-22 10:26:05.756 GMT;Adela Sobotkova;2020-01-22 10:41:02 GMT;10082;57;22.855814;38.028498;662879.3704;4210602.309;2,25;Forest;Partially Fallow;Hillside;Steep;20-40%;3;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";34;0;23;0;0;0;0;0;No;22/01/2020;POINT(662879.370373 4210602.309077);
+1.00E+18;20033: 92;Petra Hermankova;2020-01-21 11:23:16.276 GMT;Petra Hermankova;2020-01-21 11:35:05 GMT;20033;92;22.8580103;38.03074997;663067.1556;4210856.053;3;Scrub;Partially Fallow;Other;Gentle;40-60%;3;1;2;4;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";60;0;32;0;0;0;0;0;Yes;21/01/2020;POINT(663067.155628 4210856.053398);
+1.00E+18;20034: 53;Petra Hermankova;2020-01-21 11:35:24.716 GMT;Petra Hermankova;2020-01-21 11:43:29 GMT;20034;53;22.8582999;38.03063191;4210843.461;663092.8364;3;Scrub;Partially Fallow;Other;Gentle;20-40%;3;1;2;4;1;4;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";29;0;24;0;0;0;0;0;Yes;21/01/2020;POINT(663092.83642 4210843.46066);
+1.00E+18;20035: 58;Petra Hermankova;2020-01-21 11:48:40.011 GMT;Petra Hermankova;2020-01-21 11:54:25 GMT;20035;58;22.85845341;38.03055955;663106.4703;4210835.701;3;Scrub;Partially Fallow;Other;Gentle;20-40%;1;1;3;3;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";34;0;24;0;0;0;0;0;Yes;21/01/2020;POINT(663106.470257 4210835.700599);
+1.00E+18;10083: 169;Adela Sobotkova;2020-01-22 11:57:07.004 GMT;Adela Sobotkova;2020-01-22 12:09:28 GMT;10083;169;22.856211;38.028599;662913.9931;4210614.212;2;Forest;Partially Fallow;Undulating Landscape;Gentle;20-40%;3;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";126;0;43;0;0;0;0;0;No;22/01/2020;POINT(662913.993103 4210614.21237);
+1.00E+18;10084: 57;Adela Sobotkova;2020-01-22 12:09:59.220 GMT;Adela Sobotkova;2020-01-22 12:16:33 GMT;10084;57;22.856569;38.028574;662945.4717;4210612.066;1,75;Forest;Partially Fallow;Undulating Landscape;Gentle;0-20%;3;1;3;2;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";43;0;14;0;0;0;0;0;No;22/01/2020;POINT(662945.471748 4210612.065637);
+1.00E+18;20036: 36;Petra Hermankova;2020-01-21 11:55:56.115 GMT;Petra Hermankova;2020-01-21 12:02:39 GMT;20036;36;22.85868096;38.03060619;663126.34;4210841.275;3;Scrub;Partially Fallow;Other;Gentle;20-40%;1;1;4;3;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";15;0;21;0;0;0;0;0;Yes;21/01/2020;POINT(663126.339955 4210841.2751);
+1.00E+18;10086: 59;Adela Sobotkova;2020-01-22 12:39:28.680 GMT;Adela Sobotkova;2020-01-22 12:47:39 GMT;10086;59;22.857099;38.028517;662992.1186;4210606.67;1,5;Forest;Partially Fallow;Hillside;Steep;20-40%;3;1;3;4;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";28;0;31;0;0;0;0;0;No;22/01/2020;POINT(662992.118558 4210606.669639);
+1.00E+18;20037: 67;Petra Hermankova;2020-01-21 12:07:09.212 GMT;Petra Hermankova;2020-01-21 12:14:21 GMT;20037;67;22.85913733;38.03035762;663166.948;4210814.494;3;Scrub;Partially Fallow;Other;Gentle;20-40%;1;1;3;3;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";31;0;36;0;0;0;0;0;Yes;21/01/2020;POINT(663166.948019 4210814.493611);
+1.00E+18;20038: 76;Petra Hermankova;2020-01-21 12:14:46.083 GMT;Petra Hermankova;2020-01-21 12:24:40 GMT;20038;76;22.85878988;38.03024811;663136.6942;4210801.731;3;Scrub;Partially Fallow;Other;Gentle;20-40%;1;1;4;3;1;6;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";26;0;50;0;0;0;0;0;Yes;21/01/2020;POINT(663136.694165 4210801.731181);
+1.00E+18;20039: 49;Petra Hermankova;2020-01-22 07:21:51.131 GMT;Petra Hermankova;2020-01-22 07:31:55 GMT;20039;49;22.86076151;38.03055028;663309.0776;4210838.724;3;Pasture;Partially Fallow;Other;Level;20-40%;1;2;4;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";21;0;28;0;0;0;0;0;Yes;22/01/2020;POINT(663309.077607 4210838.723987);
+1.00E+18;20040: 44;Petra Hermankova;2020-01-22 07:32:11.535 GMT;Petra Hermankova;2020-01-22 07:40:33 GMT;20040;44;22.860565;38.03044;663292.0747;4210826.141;0,9;Pasture;Partially Fallow;Other;Level;20-40%;1;2;4;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";26;0;18;0;0;0;0;0;Yes;22/01/2020;POINT(663292.0747 4210826.141496);
+1.00E+18;10091: 60;Adela Sobotkova;2020-01-23 08:08:43.482 GMT;Adela Sobotkova;2020-01-23 08:16:04 GMT;10091;60;22.855514;38.028125;662853.8641;4210560.393;2;Forest;Partially Fallow;Valley Bottom;Level;0-20%;4;1;4;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";14;0;45;0;0;0;0;1;No;23/01/2020;POINT(662853.864072 4210560.392892);
+1.00E+18;10092: 52;Adela Sobotkova;2020-01-23 08:16:06.870 GMT;Adela Sobotkova;2020-01-23 08:22:45 GMT;10092;52;22.855792;38.028097;662878.3275;4210557.773;2;Forest;Partially Fallow;Valley Bottom;Gentle;0-20%;5;1;4;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";1;0;51;0;0;0;0;0;No;23/01/2020;POINT(662878.327538 4210557.772854);
+1.00E+18;10093: 103;Adela Sobotkova;2020-01-23 08:22:51.855 GMT;Adela Sobotkova;2020-01-23 08:31:18 GMT;10093;103;22.856098;38.028017;662905.3639;4210549.432;2,7;Forest;Partially Fallow;Valley Bottom;Gentle;0-20%;4;1;4;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";43;0;60;0;0;0;0;0;No;23/01/2020;POINT(662905.363922 4210549.431682);
+1.00E+18;20041: 38;Petra Hermankova;2020-01-22 07:40:37.365 GMT;Petra Hermankova;2020-01-22 07:48:46 GMT;20041;38;22.86031868;38.03031726;663270.7268;4210812.089;3;Pasture;Partially Fallow;Other;Level;20-40%;1;2;4;3;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";15;0;23;0;0;0;0;0;Yes;22/01/2020;POINT(663270.726771 4210812.08857);
+1.00E+18;20042: 18;Petra Hermankova;2020-01-22 07:48:56.270 GMT;Petra Hermankova;2020-01-22 07:56:27 GMT;20042;18;22.86008044;38.03026234;663249.9385;4210805.576;3;Pasture;Partially Fallow;Other;Gentle;20-40%;1;2;4;2;2;3;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";9;0;9;0;0;0;0;0;Yes;22/01/2020;POINT(663249.938546 4210805.576473);
+1.00E+18;10096: 510;Adela Sobotkova;2020-01-23 09:14:49.155 GMT;Adela Sobotkova;2020-01-23 09:25:26 GMT;10096;510;22.856801;38.027793;662967.5663;4210525.807;2;Forest;Partially Fallow;Hillside;Gentle;20-40%;3;1;3;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";65;0;445;0;0;0;0;0;No;23/01/2020;POINT(662967.566257 4210525.807245);
+1.00E+18;10097: 240;Adela Sobotkova;2020-01-23 09:25:37.535 GMT;Adela Sobotkova;2020-01-23 09:31:21 GMT;10097;240;22.856463;38.027839;662937.7962;4210530.319;2,1;Forest;Partially Fallow;Valley Bottom;Gentle;0-20%;3;1;3;3;1;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";5;0;235;0;0;0;0;0;No;23/01/2020;POINT(662937.796248 4210530.319259);
+1.00E+18;20043: 22;Petra Hermankova;2020-01-22 08:02:26.383 GMT;Petra Hermankova;2020-01-22 08:20:08 GMT;20043;22;22.85985475;38.03063956;663229.2913;4210847.039;3;Pasture;Partially Fallow;Other;Level;20-40%;1;2;4;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";13;0;7;0;2;0;0;0;Yes;22/01/2020;POINT(663229.291262 4210847.038542);
+1.00E+18;10099: 15;Adela Sobotkova;2020-01-23 09:59:31.299 GMT;Adela Sobotkova;2020-01-23 10:06:12 GMT;10099;15;22.855931;38.027731;4210517.403;662891.339;2,25;Forest;Partially Fallow;Valley Bottom;Gentle;0-20%;4;1;4;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";0;0;14;0;0;0;0;1;No;23/01/2020;POINT(662891.339002 4210517.402559);
+1.00E+18;20044: 95;Petra Hermankova;2020-01-22 08:18:46.393 GMT;Petra Hermankova;2020-01-22 08:33:23 GMT;20044;95;22.85994255;38.03077715;663236.6919;4210862.461;4;Pasture;Partially Fallow;Other;Level;20-40%;1;2;4;3;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";60;0;35;0;0;0;0;0;Yes;22/01/2020;POINT(663236.691936 4210862.460589);
+1.00E+18;10101: 59;Adela Sobotkova;2020-01-23 10:12:51.812 GMT;Adela Sobotkova;2020-01-23 10:20:46 GMT;10101;59;22.855412;38.027753;4210518.935;662845.7348;2,5;Forest;Partially Fallow;Valley Bottom;Gentle;20-40%;3;1;3;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";3;0;56;0;0;0;0;0;No;23/01/2020;POINT(662845.734819 4210518.934578);
+1.00E+18;20045: 65;Petra Hermankova;2020-01-22 08:33:26.908 GMT;Petra Hermankova;2020-01-22 08:43:40 GMT;20045;65;22.86030506;38.03094472;663268.1383;4210881.693;3;Pasture;Partially Fallow;Other;Level;20-40%;1;2;4;3;2;6;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";31;0;34;0;0;0;0;0;Yes;22/01/2020;POINT(663268.138335 4210881.692513);
+1.00E+18;10103: 17;Adela Sobotkova;2020-01-23 11:32:59.536 GMT;Adela Sobotkova;2020-01-23 11:36:48 GMT;10103;17;22.856195;38.031065;662907.1252;4210887.828;2;Scrub;Other;Valley Bottom;Gentle;20-40%;2;1;3;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";16;0;1;0;0;0;0;0;No;23/01/2020;POINT(662907.125205 4210887.828482);
+1.00E+18;10104: 5;Adela Sobotkova;2020-01-23 11:37:02.143 GMT;Adela Sobotkova;2020-01-23 11:41:18 GMT;10104;5;22.855952;38.030978;662885.9895;4210877.749;2;Scrub;Other;Valley Bottom;Gentle;20-40%;2;1;3;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";4;0;1;0;0;0;0;0;No;23/01/2020;POINT(662885.989467 4210877.748546);
+1.00E+18;10105: 24;Adela Sobotkova;2020-01-23 11:42:11.915 GMT;Adela Sobotkova;2020-01-23 11:45:45 GMT;10105;24;22.855687;38.030802;662863.1198;4210857.754;1,75;Scrub;Other;Valley Bottom;Gentle;20-40%;1;1;3;3;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";22;0;2;0;0;0;0;0;No;23/01/2020;POINT(662863.119834 4210857.754076);
+1.00E+18;10106: 37;Adela Sobotkova;2020-01-23 11:45:47.729 GMT;Adela Sobotkova;2020-01-23 11:50:55 GMT;10106;37;22.855467;38.030722;662843.9872;4210848.491;1,75;Scrub;Other;Valley Bottom;Gentle;20-40%;1;1;3;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";30;0;7;0;0;0;0;0;No;23/01/2020;POINT(662843.987217 4210848.491316);
+1.00E+18;10107: 5;Adela Sobotkova;2020-01-23 11:50:58.022 GMT;Adela Sobotkova;2020-01-23 11:55:07 GMT;10107;5;22.855272;38.030544;662827.2659;4210828.398;1,75;Scrub;Other;Valley Bottom;Gentle;20-40%;1;1;3;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";3;0;2;0;0;0;0;0;No;23/01/2020;POINT(662827.265876 4210828.397646);
+1.00E+18;10108: 1;Adela Sobotkova;2020-01-23 11:55:27.301 GMT;Adela Sobotkova;2020-01-23 11:59:13 GMT;10108;1;22.85501;38.030406;662804.5751;4210812.625;2;Scrub;Other;Valley Bottom;Gentle;20-40%;1;1;2;4;2;5;5;5;5;"1 - Alison Carfi (AC)
+2 - Adela Sobotkova (AS)
+3 - David Morley (DM)
+4 - Michael Hitches (MH)
+5 - Jacob Kiefel (JK)";1;0;0;0;0;0;0;0;No;23/01/2020;POINT(662804.57514 4210812.625343);
+1.00E+18;10109: 6;Adela Sobotkova;2020-01-23 12:02:31.622 GMT;Adela Sobotkova;2020-01-23 12:05:36 GMT;10109;6;22.855416;38.030412;662840.1974;4210814.002;2;Scrub;Other;Valley Bottom;Gentle;20-40%;1;1;3;4;2;5;3;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Michael Hitches (MH)";6;0;0;0;0;0;0;0;No;23/01/2020;POINT(662840.197389 4210814.002266);
+1.00E+18;10110: 4;Adela Sobotkova;2020-01-23 12:05:39.710 GMT;Adela Sobotkova;2020-01-23 12:09:49 GMT;10110;4;22.855657;38.030495;662861.1667;4210823.635;2;Scrub;Other;Valley Bottom;Gentle;20-40%;1;1;3;3;2;5;3;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Michael Hitches (MH)";3;0;1;0;0;0;0;0;No;23/01/2020;POINT(662861.166664 4210823.634704);
+1.00E+18;10111: 16;Adela Sobotkova;2020-01-23 12:10:11.980 GMT;Adela Sobotkova;2020-01-23 12:21:49 GMT;10111;16;22.855888;38.030696;662880.9968;4210846.344;1,75;Scrub;Other;Valley Bottom;Gentle;20-40%;1;1;3;4;2;5;3;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Michael Hitches (MH)";15;0;1;0;0;0;0;0;No;23/01/2020;POINT(662880.996777 4210846.343761);
+1.00E+18;20046: 34;Petra Hermankova;2020-01-22 08:52:33.546 GMT;Petra Hermankova;2020-01-22 09:07:38 GMT;20046;34;22.86051013;38.03098703;663286.0438;4210886.747;3;Scrub;Partially Fallow;Other;Level;40-60%;4;2;4;3;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";16;0;17;0;1;0;0;0;Yes;22/01/2020;POINT(663286.043826 4210886.747247);
+1.00E+18;20047: 44;Petra Hermankova;2020-01-22 09:07:40.797 GMT;Petra Hermankova;2020-01-22 09:20:48 GMT;20047;44;22.86023192;38.03103454;663261.5196;4210891.531;3;Scrub;Partially Fallow;Other;Gentle;40-60%;3;2;4;3;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";21;0;23;0;0;0;0;0;Yes;22/01/2020;POINT(663261.519596 4210891.531101);
+1.00E+18;20049: 10;Petra Hermankova;2020-01-22 10:28:59.901 GMT;Petra Hermankova;2020-01-22 10:36:04 GMT;20049;10;22.86005616;38.03142702;663245.2211;4210934.774;3;Scrub;Partially Fallow;Other;Gentle;40-60%;3;2;4;3;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";8;0;0;0;2;0;0;0;Yes;22/01/2020;POINT(663245.221059 4210934.774325);
+1.00E+18;10113: 3;Adela Sobotkova;2020-01-23 12:30:36.783 GMT;Adela Sobotkova;2020-01-23 12:33:43 GMT;10113;3;22.855478;38.029852;662846.8795;4210751.969;1,5;Pasture;Other;Valley Bottom;Level;40-60%;1;1;2;3;2;5;4;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Jacob Kiefel (JK)
+4 - Michael Hitches (MH)";3;0;0;0;0;0;0;0;No;23/01/2020;POINT(662846.879497 4210751.969465);
+1.00E+18;10114: 2;Adela Sobotkova;2020-01-23 12:33:54.031 GMT;Adela Sobotkova;2020-01-23 12:36:40 GMT;10114;2;22.855226;38.029833;662824.8028;4210749.42;1,5;Pasture;Other;Valley Bottom;Gentle;0-20%;1;1;4;3;2;5;4;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Jacob Kiefel (JK)
+4 - Michael Hitches (MH)";2;0;0;0;0;0;0;0;No;23/01/2020;POINT(662824.802794 4210749.419678);
+1.00E+18;10115: 3;Adela Sobotkova;2020-01-23 12:36:44.189 GMT;Adela Sobotkova;2020-01-23 12:39:56 GMT;10115;3;22.854992;38.029743;662804.4632;4210739.023;1,5;Pasture;Other;Valley Bottom;Gentle;0-20%;1;1;4;3;2;5;4;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Jacob Kiefel (JK)
+4 - Michael Hitches (MH)";3;0;0;0;0;0;0;0;No;23/01/2020;POINT(662804.463194 4210739.022834);
+1.00E+18;10116: 9;Adela Sobotkova;2020-01-23 12:40:12.822 GMT;Petra Hermankova;2020-01-23 14:31:26 GMT;10116;9;22.85472;38.02961;662780.8834;4210723.788;1,5;Pasture;Other;Valley Bottom;Level;0-20%;1;1;4;3;2;5;4;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Jacob Kiefel (JK)
+4 - Michael Hitches (MH)";9;0;0;0;0;0;0;0;No;23/01/2020;POINT(662780.883356 4210723.787929);
+1.00E+18;10117: 23;Adela Sobotkova;2020-01-23 12:43:01.550 GMT;Adela Sobotkova;2020-01-23 12:43:12 GMT;10117;23;22.854452;38.029522;662757.5549;4210713.554;1,5;Pasture;Other;Valley Bottom;Level;0-20%;1;1;4;2;1;8;4;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Jacob Kiefel (JK)
+4 - Michael Hitches (MH)";23;0;0;0;0;0;0;0;No;23/01/2020;POINT(662757.554921 4210713.553604);
+1.00E+18;10118: 6;Adela Sobotkova;2020-01-23 12:48:09.518 GMT;Petra Hermankova;2020-01-23 14:34:02 GMT;10118;6;22.854803;38.029526;662788.3545;4210714.612;1,5;Pasture;Other;Valley Bottom;Level;0-20%;1;1;4;3;2;5;4;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Jacob Kiefel (JK)
+4 - Michael Hitches (MH)";6;0;0;0;0;0;0;0;No;23/01/2020;POINT(662788.354496 4210714.61206);
+1.00E+18;10119: 9;Adela Sobotkova;2020-01-23 12:50:53.695 GMT;Petra Hermankova;2020-01-23 14:32:50 GMT;10119;9;22.855056;38.029546;662810.5169;4210717.274;1,5;Pasture;Other;Valley Bottom;Level;0-20%;1;1;4;3;2;5;4;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Jacob Kiefel (JK)
+4 - Michael Hitches (MH)";4;0;5;0;0;0;0;0;No;23/01/2020;POINT(662810.51686 4210717.274462);
+1.00E+18;10120: 6;Adela Sobotkova;2020-01-23 12:54:43.668 GMT;Adela Sobotkova;2020-01-23 12:59:09 GMT;10120;6;22.855135;38.029555;662817.431;4210718.412;1,5;Pasture;Other;Valley Bottom;Level;0-20%;1;1;4;3;2;5;4;5;5;"1 - Alison Carfi (AC)
+2 - David Morley (DM)
+3 - Jacob Kiefel (JK)
+4 - Michael Hitches (MH)";6;0;0;0;0;0;0;0;No;23/01/2020;POINT(662817.431021 4210718.411525);
+1.00E+18;20050: 10;Petra Hermankova;2020-01-22 10:36:07.106 GMT;Petra Hermankova;2020-01-22 10:46:00 GMT;20050;10;22.86032136;38.03150283;4210943.653;663268.3302;3;Scrub;Partially Fallow;Other;Gentle;40-60%;3;2;4;3;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";3;0;6;0;1;0;0;0;Yes;22/01/2020;POINT(663268.330194 4210943.652564);
+1.00E+18;20051: 6;Petra Hermankova;2020-01-22 10:46:19.551 GMT;Petra Hermankova;2020-01-22 10:54:09 GMT;20051;6;22.86030835;38.03149367;663267.2079;4210942.614;3;Scrub;Partially Fallow;Other;Gentle;40-60%;3;2;4;3;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Samantha Mills (SM)
+4 - Reeham Khandkar (RK)
+5 - Zed Griseh (ZG)";3;0;3;0;0;0;0;0;Yes;22/01/2020;POINT(663267.207891 4210942.613549);
+1.00E+18;20056: 9;Faims Admin;2020-01-24 11:04:37.730 GMT;Faims Admin;2020-01-24 11:04:45 GMT;20056;9;22.85784829;38.03229251;4211026.94;663049.5149;4;Scrub;Other;Other;Level;80-100%;1;1;1;3;1;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";9;0;0;0;0;0;0;0;No;24/01/2020;POINT(663049.514876 4211026.939751);
+1.00E+18;20052: 69;Petra Hermankova;2020-01-23 12:19:45.502 GMT;Petra Hermankova;2020-01-23 12:28:09 GMT;20052;69;22.8581076;38.03111436;663074.8877;4210896.66;3;Forest;Other;Other;Gentle;40-60%;3;1;3;2;2;8;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Griseh (ZG)";14;0;55;0;0;0;0;0;Yes;23/01/2020;POINT(663074.887713 4210896.659535);
+1.00E+18;20053: 19;Petra Hermankova;2020-01-23 12:29:25.231 GMT;Petra Hermankova;2020-01-23 14:27:10 GMT;20053;19;22.85849093;38.03133069;663108.0529;4210921.337;3;Forest;Other;Other;Gentle;40-60%;3;1;3;2;2;8;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Griseh (ZG)";4;0;15;0;0;0;0;0;Yes;23/01/2020;POINT(663108.052944 4210921.337222);
+1.00E+18;20054: 9;Faims Admin;2020-01-24 08:41:19.904 GMT;Faims Admin;2020-01-24 08:43:20 GMT;20054;9;22.85760026;38.03094241;663030.7392;4210876.689;3;Forest;Other;Hillside;Steep;40-60%;3;1;3;3;2;4;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";8;0;1;0;0;0;0;0;Yes;24/01/2020;POINT(663030.739175 4210876.68902);
+1.00E+18;20060: 0;Faims Admin;2020-01-24 11:50:52.760 GMT;Faims Admin;2020-01-24 11:51:45 GMT;20060;0;22.85763162;38.03118247;663032.959;4210903.382;3;Scrub;Other;River Terrace;Level;40-60%;1;1;3;3;1;3;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";0;0;0;0;0;0;0;0;No;24/01/2020;POINT(663032.959011 4210903.381874);
+1.00E+18;20061: 0;Faims Admin;2020-01-24 11:54:12.727 GMT;Faims Admin;2020-01-24 11:54:51 GMT;20061;0;22.85770307;38.03122303;663039.1402;4210908.008;3;Scrub;Other;River Terrace;Level;20-40%;1;1;3;3;1;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";0;0;0;0;0;0;0;0;No;24/01/2020;POINT(663039.140242 4210908.008078);
+1.00E+18;20062: 2;Faims Admin;2020-01-24 11:58:05.839 GMT;Faims Admin;2020-01-24 11:58:12 GMT;20062;2;22.85804087;38.03141701;663068.3596;4210930.126;3;Scrub;Other;River Terrace;Level;40-60%;1;1;3;3;1;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";1;0;1;0;0;0;0;0;No;24/01/2020;POINT(663068.359612 4210930.126275);
+1.00E+18;20055: 19;Faims Admin;2020-01-24 10:54:46.771 GMT;Faims Admin;2020-01-24 10:56:49 GMT;20055;19;22.85795559;38.03240215;663058.6895;4211039.295;3;Scrub;Other;Other;Level;80-100%;1;1;1;3;1;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";15;0;0;0;4;0;0;0;Yes;24/01/2020;POINT(663058.689533 4211039.294659);
+1.00E+18;20064: 7;Faims Admin;2020-01-24 12:06:40.715 GMT;Faims Admin;2020-01-24 12:07:01 GMT;20064;7;22.85866154;38.03157707;663122.4814;4210948.977;3;Scrub;Other;River Terrace;Level;40-60%;1;1;3;3;1;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";3;0;4;0;0;0;0;0;No;24/01/2020;POINT(663122.481392 4210948.976669);
+1.00E+18;20057: 10;Faims Admin;2020-01-24 11:08:45.719 GMT;Faims Admin;2020-01-24 11:09:46 GMT;20057;10;22.85745457;38.03225873;663015.033;4211022.501;3;Scrub;Other;Other;Level;40-60%;1;1;1;3;1;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";10;0;0;0;0;0;0;0;Yes;24/01/2020;POINT(663015.032963 4211022.501296);
+1.00E+18;20058: 7;Faims Admin;2020-01-24 11:14:43.993 GMT;Faims Admin;2020-01-24 11:16:57 GMT;20058;7;22.85713762;38.03220283;662987.3378;4211015.742;3;Scrub;Other;Other;Level;40-60%;2;1;3;2;2;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";6;0;0;0;1;0;0;0;Yes;24/01/2020;POINT(662987.337766 4211015.742003);
+1.00E+18;20059: 4;Faims Admin;2020-01-24 11:47:15.473 GMT;Faims Admin;2020-01-24 11:47:49 GMT;20059;4;22.85757382;38.03110778;663028.0516;4210894.992;4;Scrub;Other;River Terrace;Level;40-60%;1;1;3;3;1;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";1;0;3;0;0;0;0;0;Yes;24/01/2020;POINT(663028.051579 4210894.992399);
+1.00E+18;20063: 8;Faims Admin;2020-01-24 12:02:00.711 GMT;Faims Admin;2020-01-24 12:02:33 GMT;20063;8;22.85828851;38.03157269;663089.7494;4210947.836;3;Scrub;Other;River Terrace;Level;40-60%;1;1;3;3;1;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";7;0;1;0;0;0;0;0;Yes;24/01/2020;POINT(663089.749425 4210947.836367);
+1.00E+18;20065: 37;Faims Admin;2020-01-24 12:26:10.574 GMT;Faims Admin;2020-01-24 12:27:20 GMT;20065;37;22.85822011;38.03087882;663085.2849;4210870.719;3;Scrub;Partially Fallow;Other;Very Steep;20-40%;4;1;3;4;2;5;3;5;5;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";35;0;2;0;0;0;0;0;Yes;24/01/2020;POINT(663085.284864 4210870.71932);
+1.00E+18;20066: 500;Petra Hermankova;2020-01-25 07:18:48.441 GMT;Petra Hermankova;2020-01-25 07:30:38 GMT;20066;500;22.85137759;38.02838391;662490.2189;4210581.886;3;Other;Other;Hillside;Very Steep;80-100%;5;1;2;3;2;5;3;5;3;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";492;0;8;0;0;0;0;0;Yes;25/01/2020;POINT(662490.218876 4210581.885746);
+1.00E+18;20070: 57;Petra Hermankova;2020-01-28 07:00:11.908 GMT;Petra Hermankova;2020-01-28 07:00:55 GMT;20070;57;22.86485439;38.03129185;663666.6681;4210928.212;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;40-60%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";42;0;15;0;0;0;0;0;No;28/01/2020;POINT(663666.668149 4210928.211557);
+1.00E+18;10122: 64;Adela Sobotkova;2020-01-28 07:06:51.596 GMT;Adela Sobotkova;2020-01-28 07:07:15 GMT;10122;64;22.864771;38.031535;663658.8077;4210955.047;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";42;0;22;0;0;0;0;0;No;28/01/2020;POINT(663658.807733 4210955.046897);
+1.00E+18;20071: 18;Petra Hermankova;2020-01-28 07:07:00.278 GMT;Petra Hermankova;2020-01-28 07:07:17 GMT;20071;18;22.86494858;38.03161205;663674.2225;4210963.909;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";9;0;9;0;0;0;0;0;No;28/01/2020;POINT(663674.222509 4210963.909409);
+1.00E+18;20072: 10;Petra Hermankova;2020-01-28 07:10:45.520 GMT;Petra Hermankova;2020-01-28 07:11:17 GMT;20072;10;22.86486555;38.03181057;663666.4928;4210985.793;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;4;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";8;0;2;0;0;0;0;0;No;28/01/2020;POINT(663666.492838 4210985.792571);
+1.00E+18;10123: 45;Adela Sobotkova;2020-01-28 07:12:28.930 GMT;Adela Sobotkova;2020-01-28 07:12:33 GMT;10123;45;22.864708;38.031735;663652.833;4210977.129;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";40;0;5;0;0;0;0;0;No;28/01/2020;POINT(663652.832999 4210977.129376);
+1.00E+18;10124: 10;Adela Sobotkova;2020-01-28 07:16:55.998 GMT;Adela Sobotkova;2020-01-28 07:17:22 GMT;10124;10;22.86459;38.03191;663642.0866;4210996.341;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;4;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";10;0;0;0;0;0;0;0;No;28/01/2020;POINT(663642.086555 4210996.340861);
+1.00E+18;20073: 18;Petra Hermankova;2020-01-28 07:17:02.452 GMT;Petra Hermankova;2020-01-28 07:17:39 GMT;20073;18;22.86487501;38.03202099;663666.8546;4211009.159;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";13;0;5;0;0;0;0;0;No;28/01/2020;POINT(663666.854638 4211009.158831);
+1.00E+18;10125: 7;Adela Sobotkova;2020-01-28 07:22:06.766 GMT;Adela Sobotkova;2020-01-28 07:22:29 GMT;10125;7;22.864507;38.032099;663634.381;4211017.168;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;3;3;3;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";2;0;5;0;0;0;0;0;No;28/01/2020;POINT(663634.380964 4211017.167507);
+1.00E+18;20067: 1315;Petra Hermankova;2020-01-25 08:48:41.853 GMT;Petra Hermankova;2020-01-25 08:51:58 GMT;20067;1315;22.85123279;38.02834827;662477.5874;4210577.677;3;Other;Other;Hillside;Very Steep;80-100%;5;1;2;3;2;7;3;5;3;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";1295;0;20;0;0;0;0;0;Yes;25/01/2020;POINT(662477.587368 4210577.677196);
+1.00E+18;10126: 3;Adela Sobotkova;2020-01-28 07:26:01.658 GMT;Adela Sobotkova;2020-01-28 07:26:14 GMT;10126;3;22.864449;38.032304;663628.8341;4211039.814;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;3;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";2;0;1;0;0;0;0;0;No;28/01/2020;POINT(663628.834054 4211039.813639);
+1.00E+18;20075: 14;Petra Hermankova;2020-01-28 07:29:02.269 GMT;Petra Hermankova;2020-01-28 07:30:32 GMT;20075;14;22.86472301;38.03247546;663652.5024;4211059.322;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";11;0;3;0;0;0;0;0;No;28/01/2020;POINT(663652.502395 4211059.322016);
+1.00E+18;10127: 12;Adela Sobotkova;2020-01-28 07:29:21.891 GMT;Adela Sobotkova;2020-01-28 07:31:41 GMT;10127;12;22.864393;38.032485;663623.5161;4211059.8;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;3;4;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";9;0;3;0;0;0;0;0;No;28/01/2020;POINT(663623.51612 4211059.800087);
+1.00E+18;20076: 4;Petra Hermankova;2020-01-28 07:33:39.704 GMT;Petra Hermankova;2020-01-28 07:34:36 GMT;20076;4;22.86470166;38.03271325;663650.0994;4211085.672;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";4;0;0;0;0;0;0;0;No;28/01/2020;POINT(663650.099407 4211085.67159);
+1.00E+18;10128: 13;Adela Sobotkova;2020-01-28 07:33:49.150 GMT;Adela Sobotkova;2020-01-28 07:33:58 GMT;10128;13;22.864341;38.032663;663618.556;4211079.461;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;3;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";10;0;3;0;0;0;0;0;No;28/01/2020;POINT(663618.555965 4211079.460679);
+1.00E+18;20068: 659;Petra Hermankova;2020-01-25 09:05:10.494 GMT;Petra Hermankova;2020-01-25 09:18:44 GMT;20068;659;22.85076205;38.02856923;662435.7809;4210601.374;3;Other;Other;Hillside;Gentle;60-80%;4;1;2;3;2;5;3;5;3;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";653;0;6;0;0;0;0;0;Yes;25/01/2020;POINT(662435.780902 4210601.373545);
+1.00E+18;10129: 6;Adela Sobotkova;2020-01-28 07:37:53.126 GMT;Adela Sobotkova;2020-01-28 07:37:58 GMT;10129;6;22.864275;38.032884;663612.2714;4211103.868;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;4;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";5;0;1;0;0;0;0;0;No;28/01/2020;POINT(663612.271367 4211103.868211);
+1.00E+18;10130: 14;Adela Sobotkova;2020-01-28 07:42:38.467 GMT;Adela Sobotkova;2020-01-28 07:47:18 GMT;10130;14;22.864198;38.033105;663605.0213;4211128.256;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;4;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";5;0;9;0;0;0;0;0;No;28/01/2020;POINT(663605.021342 4211128.256387);
+1.00E+18;20069: 2562;Petra Hermankova;2020-01-25 09:15:04.769 GMT;Petra Hermankova;2020-01-25 09:25:58 GMT;20069;2562;22.85032054;38.02854828;662397.0736;4210598.278;3;Other;Other;Other;Level;80-100%;2;1;2;3;2;5;3;5;3;"1 - Petra Hermankova (PH)
+2 - Dean Mcmah (DMc)
+3 - Zed Grisez (ZG)";2560;0;2;0;0;0;0;0;Yes;25/01/2020;POINT(662397.073587 4210598.278269);
+1.00E+18;20074: 13;Petra Hermankova;2020-01-28 07:23:02.398 GMT;Petra Hermankova;2020-01-28 07:24:59 GMT;20074;13;22.86478071;38.03225259;663658.0623;4211034.693;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";10;0;3;0;0;0;0;0;Yes;28/01/2020;POINT(663658.062326 4211034.693208);
+1.00E+18;10131: 8;Adela Sobotkova;2020-01-28 08:06:46.530 GMT;Adela Sobotkova;2020-01-28 08:09:05 GMT;10131;8;22.864165;38.033322;663601.6421;4211152.278;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";2;0;6;0;0;0;0;0;No;28/01/2020;POINT(663601.642086 4211152.278142);
+1.00E+18;10132: 11;Adela Sobotkova;2020-01-28 08:14:22.615 GMT;Adela Sobotkova;2020-01-28 08:14:43 GMT;10132;11;22.864115;38.033571;663596.6996;4211179.821;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";10;0;1;0;0;0;0;0;No;28/01/2020;POINT(663596.699573 4211179.820922);
+1.00E+18;10133: 9;Adela Sobotkova;2020-01-28 08:23:57.103 GMT;Adela Sobotkova;2020-01-28 08:24:17 GMT;10133;9;22.864021;38.033811;663587.9153;4211206.288;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;3;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";7;0;2;0;0;0;0;0;No;28/01/2020;POINT(663587.915308 4211206.287566);
+1.00E+18;10134: 3;Adela Sobotkova;2020-01-28 08:28:45.706 GMT;Adela Sobotkova;2020-01-28 08:29:08 GMT;10134;3;22.863973;38.034081;663583.1017;4211236.164;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;60-80%;1;1;2;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";3;0;0;0;0;0;0;0;No;28/01/2020;POINT(663583.101671 4211236.16418);
+1.00E+18;20077: 12;Petra Hermankova;2020-01-28 07:37:24.400 GMT;Petra Hermankova;2020-01-28 07:37:45 GMT;20077;12;22.86455762;38.03296106;663636.9053;4211112.917;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";10;0;2;0;0;0;0;0;Yes;28/01/2020;POINT(663636.905345 4211112.916635);
+1.00E+18;10135: 0;Adela Sobotkova;2020-01-28 08:36:25.650 GMT;Adela Sobotkova;2020-01-28 08:36:29 GMT;10135;0;22.863603;38.03433;663550.0736;4211263.144;1,75;Forest;Other;Valley Bottom;Level;0-20%;4;1;4;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";0;0;0;0;0;0;0;0;No;28/01/2020;POINT(663550.073595 4211263.143876);
+1.00E+18;20078: 3;Petra Hermankova;2020-01-28 07:42:44.554 GMT;Petra Hermankova;2020-01-28 07:43:58 GMT;20078;3;22.86449725;38.03320487;663631.0636;4211139.865;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;40-60%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";0;0;2;0;1;0;0;0;Yes;28/01/2020;POINT(663631.063622 4211139.865481);
+1.00E+18;10136: 0;Adela Sobotkova;2020-01-28 08:40:45.755 GMT;Adela Sobotkova;2020-01-28 08:41:16 GMT;10136;0;22.863653;38.034078;663555.0226;4211235.268;1,75;Forest;Partially Fallow;Valley Bottom;Gentle;20-40%;4;1;4;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";0;0;0;0;0;0;0;0;No;28/01/2020;POINT(663555.022594 4211235.26817);
+1.00E+18;20079: 21;Petra Hermankova;2020-01-28 07:49:12.358 GMT;Petra Hermankova;2020-01-28 07:50:04 GMT;20079;21;22.8644425;38.03341013;663625.802;4211162.546;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;40-60%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";9;0;12;0;0;0;0;0;Yes;28/01/2020;POINT(663625.801957 4211162.545962);
+1.00E+18;10137: 0;Adela Sobotkova;2020-01-28 08:47:25.773 GMT;Adela Sobotkova;2020-01-28 08:49:05 GMT;10137;0;22.863681;38.033885;663557.9095;4211213.901;1,75;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;40-60%;1;1;3;3;3;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";0;0;0;0;0;0;0;0;No;28/01/2020;POINT(663557.909461 4211213.900809);
+1.00E+18;10138: 3;Adela Sobotkova;2020-01-28 08:55:56.442 GMT;Adela Sobotkova;2020-01-28 08:56:27 GMT;10138;3;22.863702;38.033622;663560.3377;4211184.753;1,5;Scrub;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";2;0;1;0;0;0;0;0;No;28/01/2020;POINT(663560.33769 4211184.753442);
+1.00E+18;20080: 6;Petra Hermankova;2020-01-28 08:34:47.467 GMT;Petra Hermankova;2020-01-28 08:35:07 GMT;20080;6;22.86435973;38.0335793;663618.1605;4211181.172;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";3;0;3;0;0;0;0;0;Yes;28/01/2020;POINT(663618.160539 4211181.172409);
+1.00E+18;10140: 6;Adela Sobotkova;2020-01-28 09:03:47.580 GMT;Adela Sobotkova;2020-01-28 09:05:01 GMT;10140;6;22.863719;38.033166;663562.8442;4211134.182;1,75;Pasture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;3;3;3;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";6;0;0;0;0;0;0;0;No;28/01/2020;POINT(663562.844218 4211134.18241);
+1.00E+18;10141: 11;Adela Sobotkova;2020-01-28 09:08:33.293 GMT;Adela Sobotkova;2020-01-28 09:09:55 GMT;10141;11;22.863793;38.032956;663569.8063;4211111.01;1,75;Pasture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;3;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";10;0;1;0;0;0;0;0;No;28/01/2020;POINT(663569.806331 4211111.009558);
+1.00E+18;10142: 7;Adela Sobotkova;2020-01-28 09:14:54.979 GMT;Adela Sobotkova;2020-01-28 09:17:43 GMT;10142;7;22.863909;38.032732;663580.4859;4211086.357;1,75;Pasture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;4;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";6;0;1;0;0;0;0;0;No;28/01/2020;POINT(663580.48595 4211086.357085);
+1.00E+18;10143: 8;Adela Sobotkova;2020-01-28 09:21:22.866 GMT;Adela Sobotkova;2020-01-28 09:21:56 GMT;10143;8;22.863911;38.032521;663581.1309;4211062.947;1,5;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;0-20%;1;1;4;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";5;0;3;0;0;0;0;0;No;28/01/2020;POINT(663581.130941 4211062.946572);
+1.00E+18;20081: 10;Petra Hermankova;2020-01-28 08:38:26.760 GMT;Petra Hermankova;2020-01-28 08:39:08 GMT;20081;10;22.86428045;38.03389826;663610.4924;4211216.427;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";9;0;1;0;0;0;0;0;Yes;28/01/2020;POINT(663610.492384 4211216.427317);
+1.00E+18;10145: 14;Adela Sobotkova;2020-01-28 09:31:21.437 GMT;Adela Sobotkova;2020-01-28 09:32:56 GMT;10145;14;22.864046;38.032123;663593.8654;4211019.019;1,75;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";11;0;3;0;0;0;0;0;No;28/01/2020;POINT(663593.865435 4211019.019297);
+1.00E+18;10146: 43;Adela Sobotkova;2020-01-28 09:35:52.023 GMT;Adela Sobotkova;2020-01-28 09:36:10 GMT;10146;43;22.86417;38.031908;663605.2274;4210995.38;1,75;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";37;0;6;0;0;0;0;0;No;28/01/2020;POINT(663605.227366 4210995.379635);
+1.00E+18;20083: 1;Petra Hermankova;2020-01-28 09:59:09.170 GMT;Petra Hermankova;2020-01-28 10:01:10 GMT;20083;1;22.86448897;38.03417387;663628.1806;4211247.378;3;Scrub;Partially Fallow;Valley Bottom;Gentle;60-80%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";1;0;0;0;0;0;0;0;No;28/01/2020;POINT(663628.180646 4211247.377971);
+1.00E+18;20084: 5;Petra Hermankova;2020-01-28 10:04:19.856 GMT;Petra Hermankova;2020-01-28 10:05:24 GMT;20084;5;22.86456781;38.03396644;663635.5619;4211224.498;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;40-60%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";4;0;1;0;0;0;0;0;No;28/01/2020;POINT(663635.561943 4211224.498251);
+1.00E+18;20085: 4;Petra Hermankova;2020-01-28 10:09:12.629 GMT;Petra Hermankova;2020-01-28 10:09:55 GMT;20085;4;22.86480104;38.03374089;4211199.881;663656.5343;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;40-60%;1;1;3;4;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";3;0;1;0;0;0;0;0;No;28/01/2020;POINT(663656.534268 4211199.880949);
+1.00E+18;20086: 3;Petra Hermankova;2020-01-28 10:12:38.166 GMT;Petra Hermankova;2020-01-28 10:13:13 GMT;20086;3;22.86494764;38.03352317;4211175.979;663669.8856;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;40-60%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";3;0;0;0;0;0;0;0;No;28/01/2020;POINT(663669.88564 4211175.979186);
+1.00E+18;20082: 14;Petra Hermankova;2020-01-28 08:43:36.912 GMT;Petra Hermankova;2020-01-28 08:44:31 GMT;20082;14;22.86423003;38.03413612;663605.5377;4211242.733;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;60-80%;1;1;3;3;1;8;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";14;0;0;0;0;0;0;0;Yes;28/01/2020;POINT(663605.537679 4211242.732554);
+1.00E+18;20087: 24;Petra Hermankova;2020-01-28 10:16:45.178 GMT;Petra Hermankova;2020-01-28 10:18:40 GMT;20087;24;22.86515471;38.03327914;663688.6028;4211149.264;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Steep;20-40%;2;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";17;0;7;0;0;0;0;0;Yes;28/01/2020;POINT(663688.602831 4211149.263986);
+1.00E+18;10148: 24;Adela Sobotkova;2020-01-28 10:21:26.784 GMT;Adela Sobotkova;2020-01-28 10:21:45 GMT;10148;24;22.863808;38.031857;663573.5679;4210989.083;2;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";20;0;4;0;0;0;0;0;No;28/01/2020;POINT(663573.567881 4210989.083255);
+1.00E+18;20088: 12;Petra Hermankova;2020-01-28 10:24:16.799 GMT;Petra Hermankova;2020-01-28 10:25:52 GMT;20088;12;22.86521172;38.03305073;663694.1158;4211124.019;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;40-60%;1;1;3;4;1;2;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";8;0;4;0;0;0;0;0;No;28/01/2020;POINT(663694.115834 4211124.019217);
+1.00E+18;10149: 11;Adela Sobotkova;2020-01-28 10:26:18.211 GMT;Adela Sobotkova;2020-01-28 10:26:50 GMT;10149;11;22.863773;38.032094;663569.9687;4211015.321;2;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";7;0;4;0;0;0;0;0;No;28/01/2020;POINT(663569.968656 4211015.320836);
+1.00E+18;10150: 13;Adela Sobotkova;2020-01-28 10:29:10.738 GMT;Adela Sobotkova;2020-01-28 10:29:26 GMT;10150;13;22.863702;38.032338;663563.1942;4211042.272;2;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";8;0;5;0;0;0;0;0;No;28/01/2020;POINT(663563.194154 4211042.271843);
+1.00E+18;20089: 7;Petra Hermankova;2020-01-28 10:29:23.681 GMT;Petra Hermankova;2020-01-28 10:30:28 GMT;20089;7;22.86516159;38.03290207;4211107.434;663690.0464;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";6;0;1;0;0;0;0;0;No;28/01/2020;POINT(663690.046382 4211107.434329);
+1.00E+18;10151: 14;Adela Sobotkova;2020-01-28 10:31:45.634 GMT;Adela Sobotkova;2020-01-28 10:31:52 GMT;10151;14;22.863658;38.032572;663558.8117;4211068.161;2;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;3;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";12;0;2;0;0;0;0;0;No;28/01/2020;POINT(663558.811719 4211068.160693);
+1.00E+18;10152: 12;Adela Sobotkova;2020-01-28 10:35:45.037 GMT;Adela Sobotkova;2020-01-28 10:36:19 GMT;10152;12;22.863552;38.032783;663549.0388;4211091.388;2;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;2;1;3;3;2;5;4;5;5;"1 - Nathan Stein (NS)
+2 - Adela Sobotkova (AS)
+3 - Sarah Roach (SR)
+4 - Jacob Kiefel (JK)";12;0;0;0;0;0;0;0;No;28/01/2020;POINT(663549.038761 4211091.388217);
+1.00E+18;20090: 19;Petra Hermankova;2020-01-28 10:36:14.388 GMT;Petra Hermankova;2020-01-28 10:37:01 GMT;20090;19;22.86526669;38.03261489;4211075.752;663699.9104;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";16;0;3;0;0;0;0;0;No;28/01/2020;POINT(663699.910356 4211075.75162);
+1.00E+18;20091: 26;Petra Hermankova;2020-01-28 10:40:36.499 GMT;Petra Hermankova;2020-01-28 10:41:10 GMT;20091;26;22.86537072;38.03239721;4211051.779;663709.5258;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";23;0;3;0;0;0;0;0;Yes;28/01/2020;POINT(663709.52583 4211051.779318);
+1.00E+18;20092: 24;Petra Hermankova;2020-01-28 10:45:26.576 GMT;Petra Hermankova;2020-01-28 10:46:59 GMT;20092;24;22.86547647;38.03215205;663719.3533;4211024.761;16;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";20;0;4;0;0;0;0;0;No;28/01/2020;POINT(663719.353265 4211024.761421);
+1.00E+18;20093: 38;Petra Hermankova;2020-01-28 10:50:32.384 GMT;Petra Hermankova;2020-01-28 10:50:42 GMT;20093;38;22.86558576;38.03189758;663729.5124;4210996.716;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;4;3;1;6;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";30;0;8;0;0;0;0;0;Yes;28/01/2020;POINT(663729.512394 4210996.715893);
+1.00E+18;20094: 29;Petra Hermankova;2020-01-28 10:57:55.231 GMT;Petra Hermankova;2020-01-28 10:59:06 GMT;20094;29;22.86586455;38.03168135;663754.4637;4210973.213;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";25;0;4;0;0;0;0;0;Yes;28/01/2020;POINT(663754.463747 4210973.212745);
+1.00E+18;10153: 8;Adela Sobotkova;2020-01-28 10:59:10.386 GMT;Adela Sobotkova;2020-01-28 10:59:44 GMT;10153;8;22.863462;38.033035;663540.579;4211119.194;2;Scrub;Partially Fallow;Undulating Landscape;Gentle;20-40%;2;1;2;4;3;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";8;0;0;0;0;0;0;0;No;28/01/2020;POINT(663540.578963 4211119.193547);
+1.00E+18;10154: 2;Adela Sobotkova;2020-01-28 11:04:08.902 GMT;Adela Sobotkova;2020-01-28 11:04:52 GMT;10154;2;22.86339;38.033211;663533.8681;4211138.597;2;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;60-80%;2;1;2;4;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";1;0;1;0;0;0;0;0;No;28/01/2020;POINT(663533.868104 4211138.597063);
+1.00E+18;20095: 18;Petra Hermankova;2020-01-28 11:04:24.079 GMT;Petra Hermankova;2020-01-28 11:05:57 GMT;20095;18;22.86567929;38.03193717;663737.6336;4211001.274;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";15;0;3;0;0;0;0;0;No;28/01/2020;POINT(663737.633569 4211001.273591);
+1.00E+18;10155: 0;Adela Sobotkova;2020-01-28 11:08:07.392 GMT;Adela Sobotkova;2020-01-28 11:08:44 GMT;10155;0;22.863294;38.033468;663524.8707;4211166.947;2,25;Forest;Partially Fallow;Ridgeline;Gentle;20-40%;4;1;4;3;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";0;0;0;0;0;0;0;0;No;28/01/2020;POINT(663524.870662 4211166.946687);
+1.00E+18;20096: 35;Petra Hermankova;2020-01-28 11:08:58.432 GMT;Petra Hermankova;2020-01-28 11:09:33 GMT;20096;35;22.86556197;38.03216928;4211026.824;663726.8199;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";33;0;2;0;0;0;0;0;Yes;28/01/2020;POINT(663726.819885 4211026.823657);
+1.00E+18;10156: 0;Adela Sobotkova;2020-01-28 11:12:10.787 GMT;Adela Sobotkova;2020-01-28 11:12:39 GMT;10156;0;22.863232;38.03363;663519.0687;4211184.814;1,75;Forest;Partially Fallow;Ridgeline;Gentle;20-40%;4;1;3;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";0;0;0;0;0;0;0;0;No;28/01/2020;POINT(663519.068694 4211184.814268);
+1.00E+18;20097: 28;Petra Hermankova;2020-01-28 11:13:17.475 GMT;Petra Hermankova;2020-01-28 11:14:14 GMT;20097;28;22.86543951;38.03240117;663715.5547;4211052.34;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;20-40%;1;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";22;0;6;0;0;0;0;0;Yes;28/01/2020;POINT(663715.554698 4211052.339878);
+1.00E+18;10157: 1;Adela Sobotkova;2020-01-28 11:15:17.233 GMT;Adela Sobotkova;2020-01-28 11:15:50 GMT;10157;1;22.863221;38.033831;663517.6562;4211207.099;2;Forest;Partially Fallow;Ridgeline;Gentle;20-40%;4;1;3;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";0;0;1;0;0;0;0;0;No;28/01/2020;POINT(663517.656192 4211207.099281);
+1.00E+18;20098: 9;Petra Hermankova;2020-01-28 11:19:16.503 GMT;Petra Hermankova;2020-01-28 11:19:34 GMT;20098;9;22.86525532;38.03267267;663698.7837;4211082.144;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;4;3;1;3;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";8;0;1;0;0;0;0;0;No;28/01/2020;POINT(663698.783691 4211082.14375);
+1.00E+18;10158: 0;Adela Sobotkova;2020-01-28 11:21:20.165 GMT;Adela Sobotkova;2020-01-28 11:22:24 GMT;10158;0;22.863344;38.034005;663528.0647;4211226.624;2;Forest;Partially Fallow;Ridgeline;Gentle;20-40%;4;1;3;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";0;0;0;0;0;0;0;0;No;28/01/2020;POINT(663528.064664 4211226.62392);
+1.00E+18;10159: 4;Adela Sobotkova;2020-01-28 11:24:48.395 GMT;Adela Sobotkova;2020-01-28 11:29:06 GMT;10159;4;22.863551;38.03416;663545.8878;4211244.188;2;Forest;Partially Fallow;Ridgeline;Gentle;20-40%;5;1;4;2;2;5;5;5;5;"1 - Alexandra Hewitt (AH)
+2 - Nathan Stein (NS)
+3 - Adela Sobotkova (AS)
+4 - Sarah Roach (SR)
+5 - Jacob Kiefel (JK)";4;0;0;0;0;0;0;0;No;28/01/2020;POINT(663545.887849 4211244.187993);
+1.00E+18;20099: 16;Petra Hermankova;2020-01-28 11:24:59.314 GMT;Petra Hermankova;2020-01-28 11:25:06 GMT;20099;16;22.86542036;38.03289781;663712.7686;4211107.418;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Steep;40-60%;2;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";16;0;0;0;0;0;0;0;Yes;28/01/2020;POINT(663712.768598 4211107.417561);
+1.00E+18;20100: 17;Petra Hermankova;2020-01-28 11:32:57.885 GMT;Petra Hermankova;2020-01-28 11:41:39 GMT;20100;17;22.86536063;38.0330935;663707.0899;4211129.027;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Steep;60-80%;2;1;4;3;1;7;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";15;0;2;0;0;0;0;0;Yes;28/01/2020;POINT(663707.089939 4211129.027075);
+1.00E+18;20101: 7;Petra Hermankova;2020-01-28 11:42:42.570 GMT;Petra Hermankova;2020-01-28 11:46:36 GMT;20101;7;22.86551414;38.0330462;663720.6691;4211124.049;6;Perennial Agriculture;Partially Fallow;Valley Bottom;Steep;60-80%;2;1;4;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";7;0;0;0;0;0;0;0;Yes;28/01/2020;POINT(663720.669065 4211124.048591);
+1.00E+18;20102: 20;Petra Hermankova;2020-01-28 11:51:09.827 GMT;Petra Hermankova;2020-01-28 12:06:18 GMT;20102;20;22.8656376;38.03298513;663731.6407;4211117.489;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Steep;60-80%;2;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";20;0;0;0;0;0;0;0;Yes;28/01/2020;POINT(663731.640665 4211117.489244);
+1.00E+18;20103: 20;Petra Hermankova;2020-01-28 12:13:57.291 GMT;Petra Hermankova;2020-01-28 12:18:51 GMT;20103;20;22.86567626;38.03270113;663735.6666;4211086.043;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;40-60%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";15;0;5;0;0;0;0;0;No;28/01/2020;POINT(663735.666594 4211086.043201);
+1.00E+18;20104: 28;Petra Hermankova;2020-01-28 12:19:06.131 GMT;Petra Hermankova;2020-01-28 12:24:31 GMT;20104;28;22.8658317;38.0324604;663749.8457;4211059.604;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;40-60%;1;1;3;3;1;5;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";21;0;7;0;0;0;0;0;Yes;28/01/2020;POINT(663749.84568 4211059.603895);
+1.00E+18;20105: 57;Petra Hermankova;2020-01-28 12:23:59.442 GMT;Petra Hermankova;2020-01-28 12:24:56 GMT;20105;57;22.86592585;38.03217607;663758.7421;4211028.219;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Level;40-60%;1;1;3;3;1;7;5;5;5;"1 - Dean Mcmah (DMc)
+2 - Petra Hermankova (PH)
+3 - Sam Mills (SM)
+4 - Brinnly Pegler (BP)
+5 - Zed Grisez (ZG)";47;0;10;0;0;0;0;0;Yes;28/01/2020;POINT(663758.742113 4211028.218588);
+1.00E+18;20106: 18;Petra Hermankova;2020-01-29 09:28:23.368 GMT;Petra Hermankova;2020-01-29 09:29:24 GMT;20106;18;22.86454343;38.03103029;663639.9568;4210898.64;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;2;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";13;0;5;0;0;0;0;0;No;29/01/2020;POINT(663639.956752 4210898.640086);
+1.00E+18;20107: 34;Petra Hermankova;2020-01-29 09:36:16.625 GMT;Petra Hermankova;2020-01-29 09:44:38 GMT;20107;34;22.86448335;38.0309635;663634.8322;4210891.122;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;2;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";31;0;3;0;0;0;0;0;Yes;29/01/2020;POINT(663634.83225 4210891.122423);
+1.00E+18;20108: 31;Petra Hermankova;2020-01-29 09:41:12.368 GMT;Petra Hermankova;2020-01-29 09:45:39 GMT;20108;31;22.86459749;38.03059244;663645.6762;4210850.148;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;2;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";29;0;2;0;0;0;0;0;Yes;29/01/2020;POINT(663645.676163 4210850.147875);
+1.00E+18;20109: 7;Petra Hermankova;2020-01-29 09:54:30.589 GMT;Petra Hermankova;2020-01-29 09:54:40 GMT;20109;7;22.86461545;38.03058793;663647.2626;4210849.68;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Steep;20-40%;3;1;3;2;1;4;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";6;0;1;0;0;0;0;0;No;29/01/2020;POINT(663647.262627 4210849.679824);
+1.00E+18;20110: 28;Petra Hermankova;2020-01-29 10:03:12.603 GMT;Petra Hermankova;2020-01-29 10:03:38 GMT;20110;28;22.86472388;38.03050523;663656.964;4210840.694;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;3;1;3;2;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";19;0;8;0;1;0;0;0;Yes;29/01/2020;POINT(663656.96401 4210840.693813);
+1.00E+18;20111: 26;Petra Hermankova;2020-01-29 10:08:49.961 GMT;Petra Hermankova;2020-01-29 10:09:35 GMT;20111;26;22.86469308;38.03073428;663653.7509;4210866.056;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;3;1;3;2;1;6;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";22;0;4;0;0;0;0;0;Yes;29/01/2020;POINT(663653.750946 4210866.056375);
+1.00E+18;20112: 6;Dean Mcmah;2020-01-29 10:54:41.817 GMT;Dean Mcmah;2020-01-29 10:57:48 GMT;20112;6;22.8651561;38.0312841;4210927.883;663693.1667;16;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;3;1;3;2;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";5;0;1;0;0;0;0;0;No;29/01/2020;POINT(663693.166676 4210927.883434);
+1.00E+18;20113: 15;Dean Mcmah;2020-01-29 11:00:53.349 GMT;Dean Mcmah;2020-01-29 11:00:53 GMT;20113;15;22.86523473;38.03092765;663700.8623;4210888.467;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;3;1;3;2;1;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";13;0;2;0;0;0;0;0;No;29/01/2020;POINT(663700.862321 4210888.467478);
+1.00E+18;20114: 30;Dean Mcmah;2020-01-29 11:11:07.978 GMT;Dean Mcmah;2020-01-29 11:12:09 GMT;20114;30;22.8653202;38.03116376;663707.8378;4210914.818;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;0-20%;3;1;4;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";27;0;3;0;0;0;0;0;Yes;29/01/2020;POINT(663707.837849 4210914.8181);
+1.00E+18;20115: 3;Charles Boyd;2020-01-29 11:17:53.015 GMT;Charles Boyd;2020-01-29 11:18:56 GMT;20115;3;22.86547726;38.03058433;663722.9135;4210850.797;3;Forest;Partially Fallow;Valley Bottom;Gentle;0-20%;3;1;4;1;2;2;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";2;0;1;0;0;0;0;0;No;29/01/2020;POINT(663722.913493 4210850.79745);
+1.00E+18;20116: 25;Charles Boyd;2020-01-29 11:25:06.641 GMT;Charles Boyd;2020-01-29 11:25:41 GMT;20116;25;22.86557627;38.0307305;663731.2785;4210867.192;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;2;1;3;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";15;0;10;0;0;0;0;0;No;29/01/2020;POINT(663731.278478 4210867.192249);
+1.00E+18;20117: 8;Charles Boyd;2020-01-29 11:33:11.947 GMT;Petra Hermankova;2020-01-29 11:36:26 GMT;20117;8;22.86555605;38.03115881;663728.5498;4210914.685;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;3;2;4;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";3;0;5;0;0;0;0;0;No;29/01/2020;POINT(663728.549807 4210914.68496);
+1.00E+18;20118: 20;Petra Hermankova;2020-01-29 11:42:09.895 GMT;Petra Hermankova;2020-01-29 11:43:06 GMT;20118;20;22.86586916;38.03156293;663755.1322;4210960.08;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;3;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";11;0;9;0;0;0;0;0;No;29/01/2020;POINT(663755.13225 4210960.07986);
+1.00E+18;20119: 27;Petra Hermankova;2020-01-29 11:46:27.117 GMT;Petra Hermankova;2020-01-29 11:46:49 GMT;20119;27;22.86599825;38.03128432;663767.0832;4210929.391;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";18;0;9;0;0;0;0;0;Yes;29/01/2020;POINT(663767.083184 4210929.391259);
+1.00E+18;20120: 16;Petra Hermankova;2020-01-29 11:52:26.933 GMT;Petra Hermankova;2020-01-29 11:59:59 GMT;20120;16;22.86610254;38.03112838;663776.584;4210912.271;4;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";14;0;2;0;0;0;0;0;No;29/01/2020;POINT(663776.583963 4210912.270522);
+1.00E+18;20121: 23;Petra Hermankova;2020-01-29 12:05:53.486 GMT;Petra Hermankova;2020-01-29 12:06:29 GMT;20121;23;22.86633365;38.03116372;663796.7901;4210916.6;6;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";23;0;0;0;0;0;0;0;Yes;29/01/2020;POINT(663796.790093 4210916.599586);
+1.00E+18;20122: 41;Petra Hermankova;2020-01-29 12:10:59.459 GMT;Petra Hermankova;2020-01-29 12:20:45 GMT;20122;41;22.86619099;38.03126114;663784.0521;4210927.159;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";20;0;21;0;0;0;0;0;Yes;29/01/2020;POINT(663784.052064 4210927.158662);
+1.00E+18;20123: 10;Petra Hermankova;2020-01-29 12:22:07.742 GMT;Petra Hermankova;2020-01-29 12:22:18 GMT;20123;10;22.86603846;38.03153732;663770.0485;4210957.537;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;2;2;2;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";9;0;1;0;0;0;0;0;No;29/01/2020;POINT(663770.04849 4210957.536933);
+1.00E+18;20124: 24;Petra Hermankova;2020-01-29 12:28:49.439 GMT;Petra Hermankova;2020-01-29 12:29:12 GMT;20124;24;22.86670708;38.0315542;663828.6968;4210960.588;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;2;2;5;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";22;0;2;0;0;0;0;0;No;29/01/2020;POINT(663828.696785 4210960.588021);
+1.00E+18;20125: 31;Petra Hermankova;2020-01-29 12:33:40.765 GMT;Petra Hermankova;2020-01-29 12:33:57 GMT;20125;31;22.8668;38.03119963;663837.6426;4210921.406;3;Perennial Agriculture;Partially Fallow;Valley Bottom;Gentle;20-40%;1;1;3;3;2;3;5;5;5;"1 - Petra Hermankova (PH)
+2 - Joanna Bennetts (JB)
+3 - Dean Mcmah (DMc)
+4 - Charlie Boyd (CB)
+5 - Jacob Kiefel (JK)";27;0;4;0;0;0;0;0;Yes;29/01/2020;POINT(663837.642576 4210921.405925);
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;31
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;16
