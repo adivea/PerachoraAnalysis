@@ -350,39 +350,32 @@ hist(SU_elev, col = rgb(1,0,0.2, 0.6), add = TRUE)
 # Adding in pottery
 
 ```{r pottery}
-pots <- read_csv("data/Perachora-pottery.csv")
-dim(pots)
-pots <- pots %>% 
-  select(`FABRIC LEVIGATION: count and weigh by group, list number of handles, bases, rims, and body shards under #. Coarse#`, 'Med#', 'Fine#') %>% rename(Coarse = `FABRIC LEVIGATION: count and weigh by group, list number of handles, bases, rims, and body shards under #. Coarse#`) %>% 
-  mutate(CoarseCount = gsub("[A-Za-z]", "", Coarse) )
-
-library(tidytext)
+library(tidyverse)
 library(stringr)
 
-pots$CoarseCount
-pots %>%
-  mutate(Ct = str_split(CoarseCount, " , ", n = 4)) %>% mutate(CtSUM=sum(as.numeric(unlist(Ct)))) 
-  
-
-pots %>% 
-  separate(CoarseCount, into = c("One", "Two", "Three", "Four"), sep = " , *") %>% 
-  glimpse()
-
-pots %>% 
-  mutate(new = lapply(CoarseCount, str_split(., " ,  "))) %>% 
-  glimpse()
-
-pots %>% 
-  mutate(new = sum(str_detect(unlist(CoarseCount), ",") + 1)) %>% 
-  glimpse()
+pots <- read_csv("data/Perachora-pottery.csv")
 
 
-pots %>% 
-  select(CoarseCount) %>% 
-  mutate(new = str_split(CoarseCount, " , " ),
-         newer = sum(as.numeric(unlist(new))))
+sherds <- pots %>% 
+  select(`FABRIC LEVIGATION: count and weigh by group, list number of handles, bases, rims, and body shards under #. Coarse#`, 'Med#', 'Fine#') %>% rename(Coarse = `FABRIC LEVIGATION: count and weigh by group, list number of handles, bases, rims, and body shards under #. Coarse#`, Med ='Med#', Fine = 'Fine#') %>% 
+  mutate(CoarseCount = gsub("[A-Za-z]", "", Coarse),
+         MedCount = gsub("[A-Za-z]", "", Med),
+         FineCount = gsub("[A-Za-z]", "", Fine)
+         ) %>% 
+  mutate(CoarseSum = sapply(strsplit(CoarseCount, ' , '), function(x) sum(as.numeric(x))),
+         MedSum = sapply(strsplit(MedCount, ' , '), function(x) sum(as.numeric(x))),
+         FineSum = sapply(strsplit(FineCount, ' , '), function(x) sum(as.numeric(x)))) %>% 
+           rowwise() %>% 
+           mutate(TotalSherds = sum(CoarseSum, MedSum,FineSum, na.rm = TRUE)) 
 
-  
+sherds %>% 
+  select(FineSum,MedSum,CoarseSum,TotalSherds) %>% 
+  janitor::adorn_totals('row')
 
+# Total pickups
+a <- pi*9
+density100_m <- 221/a
+density103_m <- 737/a
+541/a
 ```
 
