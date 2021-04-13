@@ -1,4 +1,4 @@
-## Perachora Overview map -- superceded my TmapOverview.Rmd
+## Perachora Overview map -- superseded my TmapOverview.Rmd
 
 library(tidyverse)
 library(sf)
@@ -6,6 +6,22 @@ library(tmap)
 library(leaflet)
 library(mapview)
 library(raster)
+library(googlesheets4)
+
+# Study area polygon
+
+df <- read_sheet("https://docs.google.com/spreadsheets/d/14XGlzReWCke0PbpZL8W3lIfnK4vqh_K84leWD9CS1GY/edit#gid=0", col_types = "nnnc") 
+df[8,]
+# Trying to figure out what coordinate system the Greeks used!!?
+polygon <- df %>%
+  st_as_sf(coords = c("X", "Y"), crs = 2100) %>%
+  summarise(geometry = st_combine(geometry)) %>%
+  st_cast("POLYGON")
+polygon %>% mapview()
+
+st_area(polygon)
+st_write(polygon, "data/PPAPstudyarea.shp")
+plot(polygon)
 
 # PPAP data
 features <- st_read("data/Features20200130.shp")

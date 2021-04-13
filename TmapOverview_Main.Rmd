@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Perachora Overview map
+## Preparing Perachora Result Maps
 
 ```{r libraries}
 library(tidyverse)
@@ -19,7 +19,7 @@ library(leaflet)
 library(raster)
 ```
 
-## Load spatial background data
+## Load background data
 ```{r load-spatial}
 # Greek border
 border <- st_read("data/Greece/periphereies/periphereies.shp", options = "ENCODING=WINDOWS-1253")
@@ -45,10 +45,19 @@ points <- st_read("data/Greece/points.shp")
 natural$geometry
 
 places <- to34N(places)
-places$name
-places %>% 
-  filter(population>10000)
 
+
+places %>% 
+  filter(population>1000) %>% 
+  slice(c(172,460,463,597)) %>% 
+  st_transform(crs = 32634) %>% 
+ # st_intersection(b4) %>% 
+  mapview()
+
+localtowns <- places %>% 
+  filter(population>1000) %>% 
+  slice(c(172,460,463,597)) %>% 
+  st_transform(crs = 32634)
 # Get elevation data from SRTM
 # elev_gr <- getData("SRTM", lon = 22.6, lat = 38)
 # plot(elev_gr)
@@ -63,13 +72,16 @@ hist(el); hist(elev)
 plot(el)
 ```
 
-## Transform everything to EPSG 32634
+### Transform everything to EPSG 32634
 ```{r project-utm}
 # Create loop?
 ```
 
 ## Load PPAP data
 ```{r load-ppap}
+# Load data and transform to UTM34N (FAIMS already is)
+ppap_area <- st_read("data/PPAPstudyarea.shp") %>% 
+  st_transform(crs = 32634)
 features <- st_read("data/Features20200130.shp")
 units <- st_read("data/AllTeams.shp")
 SUattributes <- read_csv2("E:/Perachora2020/documentation/ALLSurveyUnits_noannotation.csv")
@@ -77,7 +89,7 @@ units <- inner_join(units, SUattributes, by= c("SUID" = "SurveyUnitID")) # only 
 ```
 
 
-## Bbox and other details
+## Bounding boxes and other details
 
 ```{r bboxes}
 plot(units)
@@ -87,6 +99,7 @@ plot(features$geometry)
 b1 <- c(st_bbox(features) [1:2] - 250, st_bbox(features)[3:4] + 500)
 b2 <- c(st_bbox(features)[1] - 2000, st_bbox(features)[2] - 10000, st_bbox(features)[3:4] + 5000)
 b3 <- c(st_bbox(features)[1] - 5000, st_bbox(features)[2] - 15000, st_bbox(features)[3:4] + 15000)
+b4 <- c(st_bbox(ppap_area)[1] - 2000, st_bbox(ppap_area)[2] - 10000, st_bbox(ppap_area)[3:4] + 5000)
 
 # Bounding boxes for other uses and hand-drawn extents
 b <- st_make_grid(units, n=1)
@@ -95,6 +108,8 @@ bb <- st_make_grid(features, n=1)
 bbb <- as(eee, "SpatialPolygons")
 bbb <- st_as_sf(bbb)
 st_crs(bbb) <- 32634
+bbbb <- st_make_grid(ppap_area$geometry, n=1)
+
 
 plot(elev); plot(ee, col = "darkgreen", add = TRUE); plot(eee, col ="red", add = TRUE); plot(bb, add =TRUE);
 
@@ -103,15 +118,17 @@ st_crs(bbb) <- 32634
 box <- st_as_sf(as(ee, "SpatialPolygons"))
 st_crs(box) <- 32634
 
-plot(elev, main = "2020 PPAP study area"); plot(bbb$geometry, add = TRUE); plot(box$geometry, border = "red", add =TRUE); plot(places$geometry, add =TRUE)
+plot(elev, main = "2020 PPAP study area");  plot(bbb$geometry, add = TRUE); plot(box$geometry, border = "red", add =TRUE); plot(places$geometry, add =TRUE)
+#plot(bbbb$geometry, col = "purple", add = TRUE); 
 
 head(places)
 
 ```
 
 
-## Tmap
+## Tmap Overview
 ```{r study-area-BW}
+
 overview <- tm_shape(el)+
   tm_raster(palette = "Greys", 
             title = "Elevation", 
@@ -121,8 +138,8 @@ overview <- tm_shape(el)+
   tm_shape(bbb) +
   tm_borders(col = "red",
              lwd = 2) +
-  # tm_shape(features) +
-  # tm_dots(col = "red") +
+  tm_shape(ppap_area) +
+  tm_borders(col = "purple") +
   tm_scale_bar(breaks = c(0, 10, 20),
                position = c("LEFT", "bottom"),
                text.size = 1) +
@@ -136,9 +153,37 @@ overview <- tm_shape(el)+
 overview
 
 # Print to file
-pdf("figures/Figure01.pdf", colormodel = "gray")
-overview
-dev.off()
+# pdf("figures/Figure01.pdf", colormodel = "gray")
+# overview
+# dev.off()
+```
+```{r overview-detail}
+overview2 <- tm_shape(el, bbox = b4) +
+  tm_raster(palette = "Greys", 
+            title = "Elevation", 
+            style = "pretty") + 
+  tm_shape(ppap_area)+
+  tm_borders(col = "purple") +
+  tm_shape(aktog_34Nsm) +
+  tm_lines(lwd = 1) +
+  tm_shape(bbb) +
+  tm_borders(col = "red",
+             lwd = 2) +
+  tm_shape(localtowns) +
+  tm_symbols(size = 1)+
+  tm_text("name",
+          size = 0.75) +
+  tm_scale_bar(breaks = c(0, 2.5, 5),
+               position = c("RIGHT", "bottom"),
+               text.size = 1) +
+  tm_compass(position = c("RIGHT", "top"),
+             type = "rose", 
+             size = 2) +
+ # tm_credits(text = "A. Sobotkova, 2021") +
+  tm_layout(main.title = "Perachora Study Area",
+          #  bg.color = "lightblue",
+            inner.margins = c(0, 0, 0, 0))
+overview2
 ```
 
 
