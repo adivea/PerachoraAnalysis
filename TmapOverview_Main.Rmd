@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Preparing Perachora Result Maps
+## Libraries
 
 ```{r libraries}
 library(tidyverse)
@@ -19,34 +19,41 @@ library(leaflet)
 library(raster)
 ```
 
-## Load background data
-```{r load-spatial}
+## Load Greek background data
+```{r load-gr-data}
 # Greek border
 border <- st_read("data/Greece/periphereies/periphereies.shp", options = "ENCODING=WINDOWS-1253")
 border <- st_transform(border, crs = st_crs(features))
 border_ppap <- st_crop(border,e)
 border_sm <- st_simplify(st_crop(border,e), dTolerance = 150)
 
-aktog <- st_read("data/Greece/aktogrammh/aktogrammh.shp")
-aktog_34N <- st_transform(aktog, crs = st_crs(features))
-aktog_ppap <- st_crop(aktog_34N,e)
-aktog_34Nsm <- st_simplify(st_crop(aktog_34N,e), dTolerance = 150)
+# aktog <- st_read("data/Greece/aktogrammh/aktogrammh.shp")
+# aktog_34N <- st_transform(aktog, crs = st_crs(features))
+# aktog_ppap <- st_crop(aktog_34N,e)
+# aktog_34Nsm <- st_simplify(st_crop(aktog_34N,e), dTolerance = 150)
 
 # OSM Greek data -ENCODING IS AN ISSUE
 places <- st_read("data/Greece/places.shp", options = "ENCODING=UTF8")
-library(rgdal)
-places <- rgdal::readOGR("data/Greece/places.shp", encoding="1253")
-head(places)
-str_encode(places$name, from = "UTF-8", to = "UTF-8")
-roads <- st_read("data/Greece/roads.shp")
-waterways <- st_read("data/Greece/waterways.shp")
-natural <- st_read("data/Greece/natural.shp")
-points <- st_read("data/Greece/points.shp")
-natural$geometry
 
-places <- to34N(places)
+# roads <- st_read("data/Greece/roads.shp")
+# waterways <- st_read("data/Greece/waterways.shp")
+# natural <- st_read("data/Greece/natural.shp")
+# points <- st_read("data/Greece/points.shp")
 
+waterways <- st_transform(waterways, crs = 32634)
+water_ppap <- st_crop(waterways,elev)
 
+plot(water_ppap$geometry)
+
+# lakes
+lakes <- st_read("data/Greece/lakes.shp")
+lakes_utm <- st_transform(lakes, crs = 32634)
+
+mapview(lakes_utm)
+```
+### Get urban areas
+```{r urban}
+library(mapview)
 places %>% 
   filter(population>1000) %>% 
   slice(c(172,460,463,597)) %>% 
@@ -58,23 +65,77 @@ localtowns <- places %>%
   filter(population>1000) %>% 
   slice(c(172,460,463,597)) %>% 
   st_transform(crs = 32634)
+crs=st_crs(4326)
+localtowns$name <- c("Korinthos", "Loutraki", "Lecheo", "Perachora")
+
+# Archaeological locations within study area
+# 
+archsites <- data.frame(osm_id = c(10,11,12,13, 14), 
+           name = c("Skaloma", "Asprokampos","Schinos","Aremada", "Selki") ,
+           type = c("archaeological locale","archaeological locale","archaeological locale",
+                    "archaeological locale","archaeological locale"),
+             population = c(0,0,0,0,0),
+           longitude=c(22.9107094,22.9656586,23.0238265,22.97,22.98),
+        latitude=c(38.0197058,38.0611656,38.0401937,38.025,38.037)) %>% 
+   st_as_sf(coords = c("longitude", "latitude"),crs = 4326)
+
+
+mapview(ppap_area)+mapview(archsites)+mapview(heraion_sf)
+
+# Create a point for Heraion
+heraion <- data.frame(osm_id = 1, 
+           name = "Heraion", 
+           type = "archaeological site",
+             population = 0,
+           longitude=c(22.8528769),
+        latitude=c(38.0281432))
+
+houseA <- data.frame(osm_id = 2, 
+           name = "House A I", 
+           type = "archaeological site",
+             population = 0,
+           longitude=c(22.859269),
+        latitude=c(38.028981)) %>% st_as_sf(coords = c("longitude", "latitude"),crs = 4326)
+
+# Convert the data frame to an sf object             
+heraion_sf <- st_as_sf(heraion, coords = c("longitude", "latitude"),crs = 4326)
+mapview(localtowns) + mapview(heraion_sf) + mapview(houseA)
+```
+
+### Get elevation
+```{r elev}
 # Get elevation data from SRTM
-# elev_gr <- getData("SRTM", lon = 22.6, lat = 38)
-# plot(elev_gr)
+elev_gr <- getData("SRTM", lon = 22.6, lat = 38)
+plot(elev_gr)
 # elev <- crop(projectRaster(elev_gr, crs = CRS("+proj=utm +zone=34 +datum=WGS84 +units=m +no_defs")),e)
 plot(elev)
 plot(border)
 
 ## Reclassify the elevation raster to get rid of negative values
 mat <- cbind(-500, 0, 0)
-el <- reclassify(elev, rcl = mat)
-hist(el); hist(elev)
-plot(el)
+elev_gr <- reclassify(elev_gr, rcl = mat)
+elev <- reclassify(elev, rcl = mat)
+hist(elev_gr); 
+hist(elev); hist(el)
+plot(elev_gr)
+plot(el);plot(b4, add = TRUE)
+
+## Disaggregate to make raster smoother for detail views
+elev_ppap <- disaggregate(elev, 5, method = "bilinear")
+plot(elev_ppap)
+```
+### Get border
+```{r border}
+b_gr <- getData("GADM", country = "GRC", level = 0)
+plot(b_gr)
+mapview(b_gr) + mapview(lakes)
 ```
 
-### Transform everything to EPSG 32634
+### Transform everything to EPSG 32634 - SKIP
 ```{r project-utm}
-# Create loop?
+# border
+b_gr <- st_transform(st_as_sf(b_gr), crs = 32634)
+plot(b_gr)
 ```
 
 ## Load PPAP data
@@ -84,7 +145,7 @@ ppap_area <- st_read("data/PPAPstudyarea.shp") %>%
   st_transform(crs = 32634)
 features <- st_read("data/Features20200130.shp")
 units <- st_read("data/AllTeams.shp")
-SUattributes <- read_csv2("E:/Perachora2020/documentation/ALLSurveyUnits_noannotation.csv")
+# SUattributes <- read_csv2("E:/Perachora2020/documentation/ALLSurveyUnits_noannotation.csv")
 units <- inner_join(units, SUattributes, by= c("SUID" = "SurveyUnitID")) # only those that have a polygon (all but day 1)
 ```
 
@@ -92,7 +153,7 @@ units <- inner_join(units, SUattributes, by= c("SUID" = "SurveyUnitID")) # only 
 ## Bounding boxes and other details
 
 ```{r bboxes}
-plot(units)
+plot(units$geometry)
 plot(features$geometry)
 
 # Extents for tmap (useless otherwise)
@@ -105,7 +166,7 @@ b4 <- c(st_bbox(ppap_area)[1] - 2000, st_bbox(ppap_area)[2] - 10000, st_bbox(ppa
 b <- st_make_grid(units, n=1)
 bb <- st_make_grid(features, n=1)
 
-bbb <- as(eee, "SpatialPolygons")
+bbb <- as(eee, "SpatialPolygons") # make polygon out of a grid
 bbb <- st_as_sf(bbb)
 st_crs(bbb) <- 32634
 bbbb <- st_make_grid(ppap_area$geometry, n=1)
@@ -118,16 +179,41 @@ st_crs(bbb) <- 32634
 box <- st_as_sf(as(ee, "SpatialPolygons"))
 st_crs(box) <- 32634
 
-plot(elev, main = "2020 PPAP study area");  plot(bbb$geometry, add = TRUE); plot(box$geometry, border = "red", add =TRUE); plot(places$geometry, add =TRUE)
+plot(elev, main = "2020 PPAP study area");   plot(places$geometry, add =TRUE);plot(eee, col ="darkgreen", add = TRUE); plot(bbb$geometry, add = TRUE); plot(lakes$geometry, col = "blue", add = TRUE)
 #plot(bbbb$geometry, col = "purple", add = TRUE); 
 
 head(places)
-
+```
+## Greek map
+```{r}
+plot(elev_ppap, main = "2020 PPAP study area");  plot(box$geometry, border = "red", add =TRUE); plot(places$geometry, add =TRUE);plot(eee, col ="darkgreen", add = TRUE); #plot(bbb$geometry, add = TRUE); 
 ```
 
 
-## Tmap Overview
-```{r study-area-BW}
+## Tmap Overview Greece
+
+```{r greece-tmap}
+# b_gr_simple <- st_simplify(b_gr, dTolerance = 250)
+greece <- tm_shape(b_gr_simplecropped)+
+  tm_polygons(col = "lightgrey", 
+              border.col = "lightgrey")+
+  tm_shape(heraion_sf) +
+  tm_dots(col = "red",
+          size = 0.5,
+          alpha = 0.5) 
+greece
+
+```
+### print greece
+```{r}
+pdf("figures/greece.pdf")#, colormodel = "gray")
+greece
+dev.off()
+```
+
+
+## Context of Perachora - in Greece
+```{r study-area-BW-1}
 
 overview <- tm_shape(el)+
   tm_raster(palette = "Greys", 
@@ -157,97 +243,92 @@ overview
 # overview
 # dev.off()
 ```
+
+## Smaller -more detailed -  overview of Perachora
 ```{r overview-detail}
-overview2 <- tm_shape(el, bbox = b4) +
+overview2 <- tm_shape(elev, bbox = b4) +
   tm_raster(palette = "Greys", 
-            title = "Elevation", 
+            title = "Elevation (m)", 
             style = "pretty") + 
-  tm_shape(ppap_area)+
-  tm_borders(col = "purple") +
-  tm_shape(aktog_34Nsm) +
-  tm_lines(lwd = 1) +
-  tm_shape(bbb) +
-  tm_borders(col = "red",
-             lwd = 2) +
-  tm_shape(localtowns) +
-  tm_symbols(size = 1)+
+  tm_shape(lakes) +
+  tm_polygons(col = "lightblue",border.col = "lightblue",
+              lwd = 1) +
   tm_text("name",
-          size = 0.75) +
+          size = 0.75,
+          col = "blue",
+          ymod = -0.75,
+          xmod = 0.5) +
+  tm_shape(b_gr) +
+  tm_borders(lwd = 3) +
+             #col = "darkgrey")+ 
+  tm_shape(ppap_area)+
+  tm_borders(col = "purple",
+             lwd = 2) +
+  # tm_shape(bbb) +
+  # tm_borders(col = "red",
+  #            lwd = 2) +
+  tm_shape(localtowns) +
+  tm_bubbles(size = 0.3,
+             shape = 21,
+             col = "lightgrey")+
+  tm_text("name",
+          size = 0.75,
+           ymod = -0.75,
+          xmod = 0.5) +
+  tm_shape(heraion_sf) +
+  tm_bubbles(size = 0.1,
+             col = "black")+
+  tm_text("name",
+          size = 0.75,
+          ymod = -0.6,
+          xmod = 0.5) +
+  tm_shape(archsites) +
+tm_bubbles(size = 0.3,  # keep the sizes suited to screen here
+             shape = 21,
+             col = "lightgrey")+
+  tm_text("name",
+          size = 0.75,
+           ymod = -0.75,
+          xmod = 0.5) +
   tm_scale_bar(breaks = c(0, 2.5, 5),
                position = c("RIGHT", "bottom"),
-               text.size = 1) +
+               text.size = .75) +
   tm_compass(position = c("RIGHT", "top"),
              type = "rose", 
-             size = 2) +
+             size = 2)
  # tm_credits(text = "A. Sobotkova, 2021") +
-  tm_layout(main.title = "Perachora Study Area",
-          #  bg.color = "lightblue",
-            inner.margins = c(0, 0, 0, 0))
+  # tm_layout(main.title = "Perachora Study Area 2020",
+  #         #  bg.color = "lightblue",
+  #           inner.margins = c(0, 0, 0, 0))
 overview2
-```
 
-
-```{r survey-vis}
-units$Visibility <- factor(units$Visibility, 
-                           levels = c("0-20%",
-                                      "20-40%",
-                                      "40-60%",
-                                      "60-80%",
-                                      "80-100%"))
-#units$Vis <- as.numeric(units$Visibility)
-#units$Visibility <- as.character(units$Visibility)
-visibility <- tm_shape(units, 
-         bbox = st_bbox(units), 
-         unit = "m") + 
-   tm_polygons(col = "Visibility", 
-               border.alpha = 0,
-               palette = "Spectral",
-               title = "Ground visibility",
-               n = 5) +
-  # tm_shape(aktog_ppap) +
-  # tm_lines(col = "blue")+
-  tm_shape(border_ppap, bbox = st_bbox(units)) +
-   tm_borders(col = "grey", 
-              lwd = 2)+
-   tm_compass(type = "arrow", 
-               position = c("right", "top")) +
-   tm_scale_bar(position = c("right", "bottom"),
-                breaks = c(0,100,200)) 
-  # tm_credits("Sobotkova 2021",
-  # position = c("left", "bottom")) +
-  #tm_layout(title = "PPAP 2020")
-           # bg.color = "lightblue")
 
 ```
+### print the map
+```{r print-overview}
+pdf("figures/Figure01b.pdf", width = 5)
+overview2
+dev.off()
+```
+### Print PPAP study area with inset
+```{r}
+library(tmaptools)
+library(grid)
 
-In the next chunk we visualise the daily progress and activity areas
-```{r progress-days}
-library(lubridate)
-units$Date <- as_date(units$createdAtGMT)
-         
-daily <- tm_shape(units, 
-         bbox = st_bbox(units), 
-         unit = "m") + 
-   tm_polygons(col = "Date", 
-               border.alpha = 0,
-               palette = "Accent",
-               title = "Daily coverage",
-               n = 5) +
-  tm_shape(border_ppap, bbox = st_bbox(units)) +
-   tm_borders(col = "grey", 
-              lwd = 2)+
-   tm_compass(type = "arrow", 
-               position = c("right", "top")) +
-   tm_scale_bar(position = c("right", "bottom"),
-                breaks = c(0,100,200)) 
-  # tm_credits("Sobotkova 2021",
-  # position = c("left", "bottom")) +
-  #tm_layout(title = "PPAP 2020")
-           # bg.color = "lightblue")
+# change back to the plotting mode
+#tmap_mode("plot")
 
-tmap_arrange(visibility,daily)  
+pdf("figures/Figure01.pdf", width = 5)
+# PPAP
+overview2
+
+# print insets
+print(greece, vp=viewport(x= 0.17, y= 0.21, width= 0.3, height= 0.3))
+
+dev.off()
 ```
 
+## Survey densities
 ```{r survey-densities-features results}
 
 a <- tm_shape(units, bbox = st_bbox(units)) + 
@@ -256,10 +337,22 @@ a <- tm_shape(units, bbox = st_bbox(units)) +
   tm_symbols(size = "MostRecentlyComputedAncient",
              col = "darkblue",
              scale = 3,
-             title.size = "Sherd count") +
+             title.size = "Sherd count per unit") +
    tm_shape(border_ppap, bbox = st_bbox(units)) +
    tm_borders(col = "grey", 
               lwd = 2)+
+  tm_shape(st_as_sf(contours))+
+  tm_lines(col = "lightgrey")+
+  # tm_text(col = NA,
+  #      text = "level",
+  #       size = 0.5,
+  #       remove.overlap = TRUE,
+  #       along.lines = TRUE,
+  #       overwrite.lines = TRUE, 
+  #      bg.color = "white")+
+  tm_shape(lakes) +
+  tm_polygons(col = "lightblue",border.col = "lightblue",
+              lwd = 1) +
   # tm_compass(type = "arrow", position = c("right", "top")) +
   # tm_scale_bar(position = c("right", "top"), breaks = c(0,0.1,0.2)) + 
   # tm_credits("Sobotkova 2020", position = c("left", "bottom")) +
@@ -273,9 +366,14 @@ b <- tm_shape(units, bbox = st_bbox(units), unit = "m") +
    tm_shape(border_ppap, bbox = st_bbox(units)) +
    tm_borders(col = "grey", 
               lwd = 2)+
+   tm_shape(contours)+
+  tm_lines(col = "lightgrey")+
+  tm_shape(lakes) +
+  tm_polygons(col = "lightblue",border.col = "lightblue",
+              lwd = 1) +
   tm_compass(type = "arrow", 
-             position = c("right", "bottom")) +
-  tm_scale_bar(position = c("right", "bottom"),
+             position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"),
                breaks = c(0,100,200), 
                text.size = 0.75) + 
   #tm_credits("Sobotkova 2020", position = c("right", "bottom"), size = 0.8) +
@@ -285,6 +383,103 @@ b <- tm_shape(units, bbox = st_bbox(units), unit = "m") +
 current.mode <- tmap_mode("plot")
 tmap_arrange(a,b)
 ```
+
+### Print survey densities
+```{r print, eval = false}
+?pdf()
+  pdf("figures/Figure11a_bw.pdf",
+      colormodel = "gray", 
+      width= 10, height = 6.5)
+  # Arrange the two tmap layouts above one another
+  current.mode <- tmap_mode("plot")
+  tmap_arrange(a,b)  # add c if you want to see densities
+  tmap_mode(current.mode)
+  
+  dev.off()
+```
+
+
+
+## Daily Progress
+In the next chunk we visualise the daily progress and activity areas
+```{r progress-days}
+library(lubridate)
+units$Date <- as_date(units$createdAtGMT)
+
+rbind(heraion_sf, houseA)
+         
+daily <- tm_shape(units, 
+         bbox = st_bbox(units), 
+         unit = "m") + 
+  tm_polygons(col = "Date", 
+               #border.alpha = 0,
+               palette = "Accent",
+               title = "Daily coverage",
+               n = 5) +
+  tm_shape(border_ppap, bbox = st_bbox(units)) +
+  tm_borders(col = "grey", 
+              lwd = 2)+
+  tm_shape(rbind(heraion_sf, houseA)) +
+  tm_bubbles(size = 0.01,
+             col = "white")+
+  tm_text("name",
+          size = 1,
+          ymod = -0.6,
+          xmod = 0.5) + 
+  tm_compass(type = "arrow", 
+               position = c("right", "top")) +
+  tm_scale_bar(position = c("right", "bottom"),
+                breaks = c(0,100,200)) 
+  # tm_credits("Sobotkova 2021",
+  # position = c("left", "bottom")) +
+  #tm_layout(title = "PPAP 2020")
+           # bg.color = "lightblue")
+
+tmap_arrange(daily, visibility)  
+```
+
+
+## Visibility
+```{r survey-vis}
+units$Visibility <- factor(units$Visibility, 
+                           levels = c("0-20%",
+                                      "20-40%",
+                                      "40-60%",
+                                      "60-80%",
+                                      "80-100%"))
+#units$Vis <- as.numeric(units$Visibility)
+#units$Visibility <- as.character(units$Visibility)
+visibility <- tm_shape(units, 
+         bbox = st_bbox(units), 
+         unit = "m") + 
+   tm_polygons(col = "Visibility", 
+               #border.alpha = 0,
+               palette = "Spectral",
+               title = "Ground visibility",
+               n = 5) +
+  # tm_shape(aktog_ppap) +
+  # tm_lines(col = "blue")+
+  tm_shape(border_ppap, bbox = st_bbox(units)) +
+   tm_borders(col = "grey", 
+              lwd = 2)+
+   tm_shape(rbind(heraion_sf, houseA)) +
+   tm_bubbles(size = 0.01,
+             col = "white")+
+   tm_text("name",
+          size = 1,
+          ymod = -0.6,
+          xmod = 0.5) + tm_compass(type = "arrow", 
+               position = c("right", "top")) +
+   tm_scale_bar(position = c("right", "bottom"),
+                breaks = c(0,100,200)) 
+  # tm_credits("Sobotkova 2021",
+  # position = c("left", "bottom")) +
+  #tm_layout(title = "PPAP 2020")
+           # bg.color = "lightblue")
+
+```
+
+## Logarithmic artefact quantities
 ```{r artefact-log}
 # wrangle the data 
 units <- units %>% 
@@ -292,7 +487,7 @@ units <- units %>%
            MostRecentlyComputedAncient / Area_ha,
          AncientDensityLog = case_when(
     MostRecentlyComputedAncient == 0 ~ 0,
-    MostRecentlyComputedAncient > 0 ~ log(MostRecentlyComputedAncient))) 
+    MostRecentlyComputedAncient > 0 ~ log10(MostRecentlyComputedAncient))) 
 
 # plot it
 density_log <- tm_shape(units, 
@@ -300,7 +495,7 @@ density_log <- tm_shape(units,
          unit = "m") + 
    tm_polygons(col="AncientDensityLog", 
                border.alpha = 0,
-               title = "Density of ancient artefacts (log) ") +
+               title = "Density of artefacts (log10) ") +
    tm_shape(border_ppap, 
             bbox = st_bbox(units)) +
    tm_borders(col = "grey", 
@@ -316,10 +511,12 @@ density_log <- tm_shape(units,
   # tm_credits("Sobotkova 2021",
   # position = c("left", "bottom")) +
   # tm_layout(title = "Density of ancient artefacts")
+
+density_log
 ```
 
 ```{r results-features}
-features <- tm_shape(units, bbox = st_bbox(units), unit = "m") + 
+featuremap <- tm_shape(units, bbox = st_bbox(units), unit = "m") + 
   tm_polygons(col="cornsilk2", border.alpha = 0)+
   tm_shape(features) + 
   tm_symbols(shape = 6, col="#666666", size = 0.2) +
@@ -330,7 +527,7 @@ features <- tm_shape(units, bbox = st_bbox(units), unit = "m") +
   tm_scale_bar(position = c("right", "bottom"), breaks = c(0,100,200), text.size = 0.75) + 
   #tm_credits("Sobotkova 2020", position = c("right", "bottom"), size = 0.8) +
   tm_layout(title = "Registered standing features") 
-features
+featuremap
 
 ```
 
@@ -392,7 +589,7 @@ hist(el_ssm,
 hist(SU_elev, col = rgb(1,0,0.2, 0.6), add = TRUE)
 ```
 
-# Adding in pottery
+## Adding in pottery
 
 ```{r pottery}
 library(tidyverse)

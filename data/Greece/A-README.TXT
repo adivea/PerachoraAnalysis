@@ -27,3 +27,9 @@ where the there is also the metadata (created ca 2010 posted 2015)
 
 
 GR_bsm_admn_adm_py_EuroGeoGraphics_2015_pp is from https://data.humdata.org/dataset/gree
+
+
+Waterbodies downloaded from 
+http://www.diva-gis.org/datadown
+
+inland water

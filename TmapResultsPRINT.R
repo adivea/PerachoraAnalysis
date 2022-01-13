@@ -60,14 +60,15 @@ C <- tm_shape(unit_data, bbox = st_bbox(units), unit = "m") +
 # need 300dpi or vector graphics
 
 ?pdf()
-pdf("figures/FigureX_7in.pdf", colormodel = "gray", 
-    width= 7.5, height = 10)
-# Arrange the two tmap layouts above one another
-current.mode <- tmap_mode("plot")
-tmap_arrange(a,b)  # add c if you want to see densities
-tmap_mode(current.mode)
-
-dev.off()
+  pdf("figures/Figure11a_bw.pdf",
+      colormodel = "gray", 
+      width= 10, height = 6.5)
+  # Arrange the two tmap layouts above one another
+  current.mode <- tmap_mode("plot")
+  tmap_arrange(a,b)  # add c if you want to see densities
+  tmap_mode(current.mode)
+  
+  dev.off()
 
 # SVG graphics device
 svg("figures/figurex7.svg", width = 7.5)
@@ -161,7 +162,7 @@ units <- units %>%
            MostRecentlyComputedAncient / Area_ha,
          AncientDensityLog = case_when(
            MostRecentlyComputedAncient == 0 ~ 0,
-           MostRecentlyComputedAncient > 0 ~ log(MostRecentlyComputedAncient))) 
+           MostRecentlyComputedAncient > 0 ~ log10(MostRecentlyComputedAncient))) 
 
 # plot it
 density_log <- tm_shape(units, 

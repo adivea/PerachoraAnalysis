@@ -8,16 +8,20 @@ library(mapview)
 library(raster)
 library(googlesheets4)
 
-# Study area polygon
+##### Study area polygon out of a Greek PDF map
+# Goal 1: Combine the points from the dataframe in order to create a polygon 
+# Goal 2: Figure out what coordinate system the Greeks used as it is not declared
 
+# Load a sheet of manually copied coordinates from a PDF map 
 df <- read_sheet("https://docs.google.com/spreadsheets/d/14XGlzReWCke0PbpZL8W3lIfnK4vqh_K84leWD9CS1GY/edit#gid=0", col_types = "nnnc") 
 df[8,]
-# Trying to figure out what coordinate system the Greeks used!!?
+
+# Bind the points and cast as a polygon, testing different EPSGs
 polygon <- df %>%
-  st_as_sf(coords = c("X", "Y"), crs = 2100) %>%
-  summarise(geometry = st_combine(geometry)) %>%
-  st_cast("POLYGON")
-polygon %>% mapview()
+  st_as_sf(coords = c("X", "Y"), crs = 2100) %>%  # let's try for the Greek Grid EPSG 2100
+  summarise(geometry = st_combine(geometry)) %>%  # concatenating points in order to make a polygon
+  st_cast("POLYGON")  # make polygon out of the points
+polygon %>% mapview() 
 
 st_area(polygon)
 st_write(polygon, "data/PPAPstudyarea.shp")

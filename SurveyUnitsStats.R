@@ -13,6 +13,7 @@ units <- st_read("data/AllTeams.shp")
 plot(units)
 attributes(units)
 SUattributes <- read_csv2("D:/Perachora2020/documentation/ALLSurveyUnits_noannotation.csv")
+SUattributes <- read_csv2("C:/Users/Adela/Documents/RStudio/PPAP_survey/data/ALLSurveyUnits_noannotation.csv") %>% slice(11:285)
 dim(SUattributes)
 
 features <- st_read("D:/Perachora2020/geospatial/Vector/Features20200130.shp")
